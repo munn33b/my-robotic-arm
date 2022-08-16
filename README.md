@@ -1,4 +1,4 @@
-# My Robotic Arm
+## My Robotic Arm
 <!--<h4>Object picking and stowing with a 6-DOF KUKA KR210 <br>anthropomorphic articulated robotic manipulator<br>using ROS</h4>-->
 
 <p align="center">
