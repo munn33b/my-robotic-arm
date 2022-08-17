@@ -2,11 +2,11 @@
 <!--<h4>Object picking and stowing with a 6-DOF KUKA KR210 <br>anthropomorphic articulated robotic manipulator<br>using ROS</h4>-->
 
 <p align="center">
-<b><i>Object picking and Placing with 3 DOF Articulated Manipulator using ROS and Simulated in CoppeliaSim</i></b>
+<b><i>Object picking and Placing with 3 DOF Articulated Manipulator using ROS and Simulated in CoppeliaSim (Open Dynamics Engine)</i></b>
 </p>
 
 <p align="center">
-<img src="figures/1-intro/gazebo_intro_v2.png" alt="" width="51%"><img src="figures/1-intro/moveit_intro_v3.png" alt="" width="47.1%">
+<img src="figures/sim_env.png" alt="" width="51%"><img src="figures/picked_obj_demo.png" alt="" width="47.1%">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 ------------
-
+<!--
 <a id="top"></a>
 ### Contents
 1. [Introduction](#1.0)
@@ -96,6 +96,7 @@ All of these jobs require the same core capability, namely, that of the robotic 
 <!--<div style="text-align:left;">
   <span style="font-size: 1.4em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;"> 2. Environment Setup</span><span style="float:right;"><a href="#top">Back to Top</a></span>
 </div>-->
+<!--
 ### 2. Environment Setup
 The project uses [ROS Kinetic Kame](http://wiki.ros.org/kinetic) running on [Ubuntu 16.04 LTS (Xenial Xerus)](http://releases.ubuntu.com/16.04/).
 
@@ -205,6 +206,7 @@ The status message in RViz changes as the different stages of simulation are tra
 <!--<div style="text-align:left;">
 <span style="font-size: 1.4em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">3. Theoretical Background</span><span style="float:right;"><a href="#top">Back to Top</a></span>
 </div>-->
+<!--
 ### 3. Theoretical Background
 The following theoretical concepts are used in this project:
 
@@ -541,11 +543,12 @@ Inverse Kinematics is the reverse process where the EE position is known and a s
 -->
 
 ------------
-
+<!--
 <a name="4.0"></a>
 <!--<div style="text-align:left;">
   <span style="font-size: 1.4em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">4. Design Requirements</span><span style="float:right;"><a href="#top">Back to Top</a></span>
 </div>-->
+<!--
 ### 4. Design Requirements
 The scope of the design is limited to a single pick-and-place cycle that consists of the following steps:
 
@@ -594,6 +597,7 @@ The minimum criteria is to achieve a success rate of at least *80%* with an EE t
 <!--<div style="text-align:left;">
   <span style="font-size: 1.4em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">5. Design Implementation</span><span style="float:right;"><a href="#top">Back to Top</a></span>
 </div>-->
+<!--
 ### 5. Design Implementation
 In order to perform a single pick-and-place operation, joint angles corresponding to the given locations of the target object and drop-off site need to be determined. Towards this goal, an Inverse Kinematic analysis is performed and implemented in software using ROS and Python.
 
@@ -666,6 +670,7 @@ The *4 x 4* homogeneous transform between adjacent links from section 3 is shown
 <!--t is noted that for a 6-joint manipulator, 6 multiples of the homogeneous transform are invloved in the overall transformation between the base and the end-effector, and 12 simulatenous nonlinear equaitons would have to solved for each transform multiple.
 
 It is noted that 12 simulatenous nonlinear equaitons (from first 3 rows) would have to solved for a single transform between adjacent links for a total of 6 transofrm multiples corresponding to a 6-joint manipulator for the overall transformation between the base link and the end-effector.-->
+<!--
 
 It is noted that 12 simultaneous nonlinear equations would have to be solved, one for each term in the first 3 rows of the overall homogeneous transformation between the base link and the end-effector. Therefore, to simplify the solution, The spherical wrist design is exploited to kinematically *decouple* the *position* and *orientation* of the end-effector such that the original problem is reduced to two simpler problems that can be solved independently:
 
@@ -679,7 +684,7 @@ It is noted that 12 simultaneous nonlinear equations would have to be solved, on
 * orientation&nbsp;&nbsp; - composition of rotations (pitch, roll, yaw) to orient the end-effector
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Joints 4, 5, 6 orient the end-effector as needed
 -->
-
+<!--
 ##### Inverse Position Kinematics
 As mentioned previously, joints 1, 2, and 3, control the position of the *spherical wrist* consisting of joints 4, 5, and 6. In the *position* part of Inverse Kinematics, joint angles 1, 2, and 3 are geometrically calculated from the position of the spherical wrist center (WC). This position is determined from the end-effector position (EE) using figure 5.2.
 
@@ -823,6 +828,7 @@ The following are selected notes of interest regarding this implementation:
 <!--<div style="text-align:left;">
 <span style="font-size: 1.4em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;"> 6. Testing  and Review</span><span style="float:right;"><a href="#top">Back to Top</a></span>
 </div>-->
+<!--
 ### 6. Testing and Review
 ##### Testing
 After implementing the `IK_server` ROS node, the pick-and-place operation can be tested by launching the project in **test** mode by setting the *demo* flag to *"false"* in `inverse_kinematics.launch` file under `/pick-and-place/kuka_arm/launch/`.
@@ -950,4 +956,4 @@ In addition to the accuracy improvements made in the calculation of *theta2* and
 ------------
 
 > Copyright © 2017, Salman Hashmi. See attached license.
-
+-->
