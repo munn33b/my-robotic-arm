@@ -26,6 +26,7 @@
 
 ### Working of Autonomous Robotic Arm Pick and Place Work Flow in Simulation
 
+https://raw.githubusercontent.com/munn33b/my-robotic-arm/main/assets/output1_e.mp4
 <video src="./assets/output1.mp4"></video>
 
 # 1. Introduction
