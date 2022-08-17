@@ -67,7 +67,7 @@ Machine learning classification model is widely used for object detection. Machi
 
 Object Classification refers to detecting the object in workspace and classifying into predefined class. For example, in the below image, person, vase, chair, laptop, football etc. are predefined classes of objects that our machine learning algorithm learns to predict after training a model.
 
-![](/demo-mount/FYP/Design Project Part 1 Progress Report/yolo_detection.jpg)
+![](figures/yolo_detection.jpg)
 
 We have trained our machine learning model for detecting various shapes, predominantly, square, circle, and triangle etc. Machine learning model can be trained to predict any set of objects as per the need of application, this proves the robustness of system.
 
