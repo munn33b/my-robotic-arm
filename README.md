@@ -25,6 +25,7 @@
 - **EE:** End Effector
 
 ### Working of Autonomous Robotic Arm Pick and Place Work Flow in Simulation
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=AjXCw6YPD74)
 
 <video src="./assets/output1.mp4"></video>
 
