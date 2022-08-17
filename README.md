@@ -26,6 +26,10 @@
 
 ### Working of Autonomous Robotic Arm Pick and Place Work Flow in Simulation
 
+<p align="center">
+<img src="assets/circle_pick.git" alt="" width="51%">
+</p>
+
 <video src="./assets/output1.mp4"></video>
 
 # 1. Introduction
