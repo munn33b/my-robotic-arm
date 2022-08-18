@@ -159,7 +159,7 @@ After downloading the package, extract it into any directory. Next, go to that d
 ./coppeliaSim.sh
 ```
 
-![](/home/muneeb/my-robotic-arm/figures/coppeliasim_main.png)
+![](figures/coppeliasim_main.png)
 
 This is the default user interface of CoppeliaSim (Although color scheme is different).
 
