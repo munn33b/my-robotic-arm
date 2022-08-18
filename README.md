@@ -107,10 +107,8 @@ Download pretrained model for shapes detection from here, or pretrained model of
 Go to "src" directory or your workspace, and clone "darknet_ros" repository there.
 
 ```bash
-cd noectic_robots_ws/src
+cd catkin_ws/src
 ```
-
-
 
 ```bash
 git clone https://github.com/munn33b/darknet_ros.git
