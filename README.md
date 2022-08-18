@@ -29,9 +29,6 @@
 <p align="center">
 <img src="assets/circle_pick.gif" alt="" >
 </p>
-
-<video src="./assets/output1.mp4"></video>
-
 # 1. Introduction
 
 This project is inspired by [Amazon Robotics Challenge](https://www.amazonrobotics.com/#/roboticschallenge), where decision making, for autonomous picking and stowing, picking objects  off shelves and putting them in shipping boxes, still remains a challenging task.
@@ -80,3 +77,67 @@ We have trained our machine learning model for detecting various shapes, predomi
 Robotic manipulators have become ubiquitous in almost every industry; from food, beverage, shipping and packaging to manufacturing. Almost all robotic applications face the fundamental challenge of decision making, how to perform a certain task? If we can incorporate the artificial intelligence and machine learning into our robotic systems in such a way to completely automate the task, it will be massive industrial disruption.
 
 This project is mainly focused on applications of robotics in retail stores and in distribution centers.
+
+# 2. Environment Setup
+
+This project uses YOLOv3 Object detection algorithm, so to work with this one, you need following things:
+
+1. ROS (Robot Operating System) Noetic
+2. CoppeliaSim (Previously V-REP)
+
+The Project has been tested on Ubuntu 20.04, using ROS Noetic and CoppeliaSim.
+
+### Prerequisites
+
+- Darknet ROS Installed (YOLOv3 Package for ROS)
+- Trained Model (Weights File)
+- ROS Noetic
+- CoppeliaSim
+
+You can download pretrained model (based on publicly available dataset), use our dataset (for shape detection), or train model using your own dataset.
+
+To train a model using your own custom dataset, refer to the following blog post for complete guide. [How to train custom YOLOv3 Object detection Model using Google Colab](https://headstartguide.com/how-to-train-custom-yolov3-model-using-google-colab)
+
+Download pretrained model for shapes detection from here, or pretrained model of publicly available dataset from here.
+
+**Note:** For this project to work without any modification, you will need to download pretrained model for shape detection. For any other trained model, you will have to change the codebase and setup.
+
+### ROS Setup
+
+Go to "src" directory or your workspace, and clone "darknet_ros" repository there.
+
+`cd noectic_robots_ws/src`
+`git clone https://github.com/munn33b/darknet_ros.git`
+
+Next, build the workspace
+
+`catkin_make -DCMAKE_BUILD_TYPE=Release`
+
+**Note:** This may take long time to compile everything, so please be patient, and wait for it to complete.
+
+After that's done, clone "gp7_visualization" package in the "src" of your workspace.
+
+```bash
+git clone https://github.com/munn33b/gp7_visualization.git
+```
+
+**Note:** GP7 is the industrial robotic arm, manufactured by Yaskawa. We have used this robotic arm for simulations. The package, "gp7_visualization", contains all description files (meshes, mass properties, joints etc) for the robotic arm.
+
+Next up, we need to clone the main repository containing all controllers, motion planners, object detection pipelines etc. This is main repository and contains two packages. Clone it into "src" directory of your workspace.
+
+```bash
+git clone https://github.com/munn33b/my-robotic-arm.git	
+```
+
+Now, build the three packages you have just cloned into your workspace.
+
+```bash
+catkin_make my_robotic_arm gp7_visualization gp7_robot_moveit_config
+```
+
+Once everything is finished, source the workspace again:
+
+`source devel/setup.bash`
+
+
+
