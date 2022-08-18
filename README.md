@@ -120,7 +120,7 @@ git clone https://github.com/munn33b/darknet_ros.git
 Next, build the workspace
 
 ```bash
-catkin_make -DCMAKE_BUILD_TYPE=Release
+catkin_make darknet_ros -DCMAKE_BUILD_TYPE=Release
 ```
 
 **Note:** This may take long time to compile everything, so please be patient, and wait for it to complete.
@@ -149,5 +149,49 @@ Once everything is finished, source the workspace again:
 
 `source devel/setup.bash`
 
+### CoppeliaSim Setup
 
+For the simulation of project, you will need to download CoppeliaSim. Go to [Download Link](https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_3_0_rev12_Ubuntu20_04.tar.xz)
+
+After downloading the package, extract it into any directory. Next, go to that directory and run following command, in your terminal, to run it
+
+```bash
+./coppeliaSim.sh
+```
+
+![](/home/muneeb/my-robotic-arm/figures/coppeliasim_main.png)
+
+This is the default user interface of CoppeliaSim (Although color scheme is different).
+
+We need the plugin to interface ROS with CoppeliaSim before we can run our simulation.
+
+Go th "src" of your main ROS workspace, for example,
+
+```bash
+cd catkin_ws/src
+```
+
+and clone the following package "simExtROS", using command,
+
+```bash
+git clone https://github.com/CoppeliaRobotics/simExtROS.git
+```
+
+Next, we need to make some modifications into the "messages.txt" file inside "meta" directory. Go to directory "simExtROS/meta/" and open file "messages.txt", using your favorite text editor. For me it's nano!
+
+```bash
+nano simExtROS/meta/messages.txt
+```
+
+and add the following on first line of file,
+
+`rospy_tutorials/Floats`
+
+Next, compile the package, using,
+
+```bash
+catkin_make sim_ros_interface
+```
+
+Now, everything done, as far as the environment setup is concerned. We can now run the simulation!
 
