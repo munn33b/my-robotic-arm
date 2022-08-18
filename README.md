@@ -30,7 +30,10 @@
 <img src="assets/circle_pick.gif" alt="" >
 </p>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 98e6e539c85cfb847bd8faf085ee53ba42a0ac8d
 # 1. Introduction
 
 This project is inspired by [Amazon Robotics Challenge](https://www.amazonrobotics.com/#/roboticschallenge), where decision making, for autonomous picking and stowing, picking objects  off shelves and putting them in shipping boxes, still remains a challenging task.
