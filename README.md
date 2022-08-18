@@ -106,12 +106,21 @@ Download pretrained model for shapes detection from here, or pretrained model of
 
 Go to "src" directory or your workspace, and clone "darknet_ros" repository there.
 
-`cd noectic_robots_ws/src`
-`git clone https://github.com/munn33b/darknet_ros.git`
+```bash
+cd noectic_robots_ws/src
+```
+
+
+
+```bash
+git clone https://github.com/munn33b/darknet_ros.git
+```
 
 Next, build the workspace
 
-`catkin_make -DCMAKE_BUILD_TYPE=Release`
+```bash
+catkin_make -DCMAKE_BUILD_TYPE=Release
+```
 
 **Note:** This may take long time to compile everything, so please be patient, and wait for it to complete.
 
