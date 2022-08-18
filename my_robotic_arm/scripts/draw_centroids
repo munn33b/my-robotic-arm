@@ -1,0 +1,102 @@
+#!/usr/bin/python3
+
+"""
+ROS Node to Draw Centroids on YOLOv3 Detected Object
+
+Topics Subscribed by Node
+
+    /camera/image_raw
+    /darknet_ros/bounding_boxes
+
+Topics Published by Node
+
+    /centroid/draw_centroid
+    /centroid/x_pos
+    /centroid/y_pos
+    /centroid/x_pos_wc
+    /centroid/y_pos_wc
+
+PreRequisites:
+
+    Darknet ROS Package in ROS Workspace (https://github.com/LeggedRobotics/darknet_ros)
+
+Author: Muhammad Muneeb ur Rehman (muneeburrehman197@gmail.com)
+
+"""
+
+# Importing Necessary Libraries
+
+import rospy
+from sensor_msgs.msg import Image
+from darknet_ros_msgs.msg import BoundingBoxes
+import cv2
+from cv_bridge import CvBridge
+from std_msgs.msg import Float32
+from std_msgs.msg import String
+from std_msgs.msg import Float64
+
+class draw_centroid():
+    def sub_callback(self, msg):
+        for boxes in msg.bounding_boxes:
+            self.Probability = boxes.probability
+            self.XMin = boxes.xmin
+            self.XMax = boxes.xmax
+            self.YMin = boxes.ymin
+            self.YMax = boxes.ymax
+            self.Class = boxes.Class
+        #print (self.Class)
+    def detection_image_cb(self, image_data):
+        try:
+
+            #print(image_data.height)
+            #print(image_data.width)
+            self.cx = int((self.XMin+self.XMax)/2)
+            #print(self.cx)
+            self.cy = int((self.YMin+self.YMax)/2)
+
+            int_xmin = int(self.XMin)
+            int_ymax = int(self.YMax)
+            #print(int_xmin)
+            #print(int_ymax)
+            self.image = self.bridge.imgmsg_to_cv2(image_data, "bgr8")
+            cv2.circle(self.image, (self.cx,self.cy), 2, (0, 0, 255), 2, cv2.FILLED)
+            cv2.rectangle(self.image, (self.XMin, self.YMax), (self.XMax, self.YMin), (0, 0, 255), 2)
+            cv2.putText(self.image, self.Class, (int_xmin, int_ymax),cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            #cv2.imshow("Output", self.image)
+            #cv2.waitKey()
+            self.image_to_msg = self.bridge.cv2_to_imgmsg(self.image, "bgr8")
+            self.centroid_image_publisher.publish(self.image_to_msg)
+            self.centroid_x_pos_publisher.publish(self.cx)
+            self.centroid_y_pos_publisher.publish(self.cy)
+            self.class_publisher.publish(self.Class)
+            self.probability_publisher.publish(self.Probability)
+            rospy.loginfo("Object Detected")
+        except (AttributeError):
+            rospy.loginfo("No Object detected in FOV")
+
+
+
+    def __init__(self):
+        #self.subscriber = rospy.Subscriber("/darknet_ros/bounding_boxes", BoundingBoxes, self.sub_callback)
+        while not rospy.is_shutdown():
+
+            self.bridge = CvBridge()
+            rospy.init_node("draw_centroids")
+            rospy.Subscriber("/darknet_ros/bounding_boxes", BoundingBoxes, self.sub_callback)
+            rospy.Subscriber("/camera/image_raw", Image, self.detection_image_cb)
+
+            self.centroid_image_publisher = rospy.Publisher("/centroid/draw_centroid", Image, queue_size=1)
+            self.centroid_x_pos_publisher = rospy.Publisher("/centroid/x_pos", Float32, queue_size=10)
+            self.centroid_y_pos_publisher = rospy.Publisher("/centroid/y_pos", Float32, queue_size=10)
+            self.class_publisher = rospy.Publisher("/object_class", String, queue_size=10)
+            self.probability_publisher = rospy.Publisher("/object_probability", Float64, queue_size=10)
+            rospy.spin()
+
+if __name__ == "__main__":
+    try:
+        draw_centroid()
+        rospy.Spin()
+
+    except: 
+        rospy.ROSInterruptException
+        rospy.loginfo("Node Terminated")

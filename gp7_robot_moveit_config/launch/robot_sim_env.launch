@@ -1,0 +1,40 @@
+<launch>
+
+  <rosparam file="$(find gp7_robot_moveit_config)/config/trajectory_control.yaml" command="load"/>
+
+  <include file="$(find gp7_robot_moveit_config)/launch/arm_joint_controller.launch">
+  </include>
+  <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+    <arg name="load_robot_description" value="true"/>
+  
+  <node name="robot_hardware_interface" pkg="my_robotic_arm" type="robot_hardware_interface" output="screen"/>
+
+  <!--
+  <node name="arm_joint_controller" pkg="controller_manager" type="spawner" respawn="false" output="screen" args="/gp7_robot/arm_joint_controller"/>
+  -->
+
+  
+  <!-- convert joint states to TF transforms for rviz, etc -->
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"	respawn="false" output="screen">
+</node>
+
+  <include file="$(find gp7_robot_moveit_config)/launch/move_group.launch">
+  <arg name="publish_monitored_planning_scene" value="true" />
+  </include>
+
+  <include file="$(find gp7_robot_moveit_config)/launch/moveit_rviz.launch"/> 
+  
+  <!-- <node name="simple_marker" pkg="three_dof_planar_manipulator" type="simple_marker.py" output="screen"  >
+  </node> -->
+    
+<!--
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+  </node>
+    -->
+
+  <node name="joint_state_controller" pkg="controller_manager" type="spawner" respawn="false" output="screen" args="/gp7_robot/joint_state_controller" >
+  </node>
+
+
+</launch>

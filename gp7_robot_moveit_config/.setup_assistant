@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: gp7_visualization
+    relative_path: urdf/gp7_robot.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/gp7_robot.srdf
+  CONFIG:
+    author_name: muneeb
+    author_email: muneeburrehman197@gmail.com
+    generated_timestamp: 1659454783

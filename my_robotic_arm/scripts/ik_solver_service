@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+
+
+import rospy
+import sys
+import moveit_commander
+from geometry_msgs.msg import PoseStamped
+from moveit_msgs.srv import GetPositionIKRequest, GetPositionIK
+
+def main():
+    moveit_commander.roscpp_initialize(sys.argv)
+    rospy.init_node("maw")
+
+    compute_ik_srv = rospy.ServiceProxy("/compute_ik", GetPositionIK)
+    rospy.wait_for_service("/compute_ik")
+
+    arm_move_group = moveit_commander.MoveGroupCommander("manipulator")
+    robot_commander = moveit_commander.RobotCommander()
+
+    pose = PoseStamped()
+    pose.header.frame_id = "world"
+    pose.header.stamp = rospy.Time.now()
+    pose.pose.position.x = 0.1
+    pose.pose.position.y = 0.5
+    pose.pose.position.z = 0.4
+    pose.pose.orientation.x = 0.287262476532
+    pose.pose.orientation.y = 0.290124446559
+    pose.pose.orientation.z = -0.644487562197
+    pose.pose.orientation.w = 0.646470940769
+
+    req = GetPositionIKRequest()
+    req.ik_request.group_name = "arm"
+    req.ik_request.robot_state = robot_commander.get_current_state()
+    req.ik_request.avoid_collisions = True
+    #req.ik_request.ik_link_name = arm_move_group.get_end_effector_link()
+    req.ik_request.pose_stamped = pose
+    k = compute_ik_srv(req)
+    print (k.error_code.val == 1)
+
+    arm_move_group.set_pose_target(pose)
+    print (arm_move_group.go())
+
+main()

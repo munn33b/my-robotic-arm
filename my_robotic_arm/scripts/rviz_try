@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+
+
+import rospy
+import moveit_commander
+import moveit_msgs.msg
+import sys
+from std_msgs.msg import String
+from std_msgs.msg import Float64
+from geometry_msgs.msg import PoseStamped, Pose
+
+class MotionPlanner():
+    def __init__(self):
+        moveit_commander.roscpp_initialize(sys.argv)
+        rospy.init_node("try_rviz")
+        manipulator = moveit_commander.MoveGroupCommander("manipulator")
+        print(manipulator.get_end_effector_link())
+        manipulator.allow_replanning(True)
+        manipulator.set_goal_orientation_tolerance(0.2)
+        #manipulator.set_planning_time(30)
+        self.start_pose = manipulator.get_current_pose(manipulator.get_end_effector_link()).pose
+        print(self.start_pose)
+
+        manipulator.set_goal_tolerance(0.2)
+        manipulator.set_named_target("home")
+        manipulator.go()
+        rospy.sleep(5)
+        manipulator.set_end_effector_link("link_4_r")
+
+        """
+        manipulator.allow_replanning(True)
+        manipulator.set_goal_orientation_tolerance(0.02)
+        manipulator.set_goal_tolerance(0.1)
+        manipulator.set_named_target("home")
+        manipulator.go()
+        
+        rospy.sleep(10)
+
+        end_pose = manipulator.get_current_pose(manipulator.get_end_effector_link()).pose
+        print(end_pose)
+        print (manipulator.get_end_effector_link())
+
+        manipulator.allow_replanning(True)
+        manipulator.set_goal_orientation_tolerance(0.02)
+        manipulator.set_goal_tolerance(0.1)
+
+
+
+        target_position = Pose()
+        target_position.position.x = 0.0  #2253795006412775
+        target_position.position.y = -0.5709105294554621  #79871448344205
+        target_position.position.z = 0.4186994689500281 #5806803278660927
+
+        target_position.orientation.x = 0.3163143926052301
+        target_position.orientation.y = 0.30857145887453663
+        target_position.orientation.z = -0.6464090815356544
+        target_position.orientation.w = 0.6219111372521132
+        manipulator.set_pose_target(target_position)
+        manipulator.go()
+
+        rospy.sleep(10)
+
+        """
+        #target_position = Pose()
+        #target_position.position.x = 0.10  #2253795006412775
+        #target_position.position.y = -0.3664655070045805  #79871448344205
+        #target_position.position.z = 0.45600862781347456 #5806803278660927
+
+        #tp = [0.31, 0.30, -0.64]
+        #endeff = manipulator.set_end_effector_link("link_4_r")
+        #target_position.orientation.x = 0.3163143926052301
+        #target_position.orientation.y = 0.30857145887453663
+        #target_position.orientation.z = -0.6464090815356544
+        #target_position.orientation.w = 0.6219111372521132
+        ##manipulator.set_pose_target(target_position)
+        ##manipulator.set_position_target(tp)
+        #manipulator.set_joint_value_target(target_position, manipulator.get_end_effector_link(), True)
+        #manipulator.go()
+
+
+
+"""
+        target_position = Pose()
+        target_position.position.x = 0.3950114912535179 #2253795006412775
+        target_position.position.y = 0.4  #79871448344205
+        target_position.position.z = 0.3 #5806803278660927
+        print (target_position.position.x)
+"""
+        
+
+
+
+
+if __name__ == "__main__":
+    MotionPlanner()

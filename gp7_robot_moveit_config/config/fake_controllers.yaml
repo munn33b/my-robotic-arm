@@ -1,0 +1,9 @@
+controller_list:
+  - name: arm_joint_controller
+    joints:
+      - joint_1_s
+      - joint_2_l
+      - joint_3_u
+initial:  # Define initial robot poses per group
+  - group: manipulator
+    pose: home

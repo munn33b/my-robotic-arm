@@ -1,0 +1,10 @@
+controller_manager_ns: controller_manager
+controller_list:
+ - name: gp7_robot/arm_joint_controller
+   action_ns: follow_joint_trajectory
+   type: FollowJointTrajectory
+   default: true
+   joints:
+    - joint_1_s
+    - joint_2_l
+    - joint_3_u

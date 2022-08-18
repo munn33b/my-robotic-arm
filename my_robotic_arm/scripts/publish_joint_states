@@ -1,0 +1,55 @@
+#!/usr/bin/python3
+
+
+import rospy
+from sensor_msgs.msg import JointState
+from std_msgs.msg import Float32
+
+class Publish_to_Joint_state():
+    def joint1_sub_callback(self, joint1_pos_data):
+        self.joint1_pos = joint1_pos_data.data
+    def joint2_sub_callback(self, joint2_pos_data):
+        self.joint2_pos = joint2_pos_data.data
+    def joint3_sub_callback(self, joint3_pos_data):
+        self.joint3_pos = joint3_pos_data.data
+    def joint4_sub_callback(self, joint4_pos_data):
+        self.joint4_pos = joint4_pos_data.data
+    def joint5_sub_callback(self, joint5_pos_data):
+        self.joint5_pos = joint5_pos_data.data
+    def joint6_sub_callback(self, joint6_pos_data):
+        self.joint6_pos = joint6_pos_data.data
+        
+    def __init__(self):
+        print("Node Started and Process is Running!")
+        while not rospy.is_shutdown():
+            rospy.init_node("publish_joint_states")
+
+            joint_state_publisher = rospy.Publisher('/joint_states', JointState, queue_size=1)
+
+            rospy.Subscriber("/csim_simulation/robot_sim_env/joint_1_s/state", Float32, self.joint1_sub_callback)
+            rospy.Subscriber("/csim_simulation/robot_sim_env/joint_2_l/state", Float32, self.joint2_sub_callback)
+            rospy.Subscriber("/csim_simulation/robot_sim_env/joint_3_u/state", Float32, self.joint3_sub_callback)
+            rospy.Subscriber("/csim_simulation/robot_sim_env/joint_4_r/state", Float32, self.joint4_sub_callback)
+            rospy.Subscriber("/csim_simulation/robot_sim_env/joint_5_b/state", Float32, self.joint5_sub_callback)
+            rospy.Subscriber("/csim_simulation/robot_sim_env/joint_6_t/state", Float32, self.joint6_sub_callback)
+            rospy.sleep(1)
+            joint_states = JointState()
+            joint_states.header = rospy.Header()
+            
+            joint_positions = [self.joint1_pos, self.joint2_pos, self.joint3_pos, self.joint4_pos, self.joint5_pos, self.joint6_pos]
+            joint_states.name = ['joint_1_s', 'joint_2_l', 'joint_3_u', 'joint_4_r', 'joint_5_b', 'joint_6_t']
+            joint_states.position = joint_positions
+            joint_states.velocity = [0, 0, 0, 0, 0, 0]
+            joint_states.effort = [0, 0, 0, 0, 0, 0]
+            joint_state_publisher.publish(joint_states)
+
+
+    
+                            
+if __name__ == "__main__":
+    try:
+        Publish_to_Joint_state()
+        rospy.spin()
+    except:
+        rospy.ROSInterruptException
+        rospy.loginfo("Node Terminated")

@@ -1,0 +1,14 @@
+gp7_robot:
+ joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+ arm_joint_controller:
+  type: "position_controllers/JointTrajectoryController"
+  joints:
+   - joint_1_s
+   - joint_2_l
+   - joint_3_u
+  gains:
+   joint_1_s: {p: 1000.0, i: 0.0, d: 0.1}
+   joint_2_l: {p: 1000.0, i: 0.0, d: 0.1}
+   joint_3_u: {p: 1000.0, i: 0.0, d: 0.1}

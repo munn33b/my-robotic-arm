@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+import rospy
+from std_msgs.msg import Int16
+from  rospy_tutorials.msg import Floats
+#from std_msgs.msg import String
+
+servo1_angle = 0
+servo2_angle = 0
+servo3_angle = 0
+
+def servo1_cb(servo1_msg):
+    global servo1_angle
+    servo1_angle = servo1_msg.data + 90
+
+def servo2_cb (servo2_msg):
+    global servo2_angle
+    servo2_angle = servo2_msg.data + 90
+
+def servo3_cb (servo3_msg):
+    global servo3_angle
+    servo3_angle = servo3_msg.data + 90
+
+rospy.init_node("csim_cmd_joints")
+while not rospy.is_shutdown():
+    rospy.wait_for_message("servo1/angle", Int16, timeout=None)
+    #csim_cmd_joints = rospy.Publisher("/csim_simulation/csim_cmd_joints", String, queue_size=10)
+    rospy.Subscriber("/servo1/angle", Int16, servo1_cb)
+    rospy.Subscriber("/servo2/angle", Int16, servo2_cb)
+    rospy.Subscriber("/servo3/angle", Int16, servo3_cb)
+    joint_angles_pub = rospy.Publisher("/joints_to_csim", Floats, queue_size = 10)
+    joints_array = [servo1_angle, servo2_angle, servo3_angle]
+    joint_angles_pub.publish(joints_array)
+    csim_cmd_joints.publish("running")

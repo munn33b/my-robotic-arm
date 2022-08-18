@@ -1,0 +1,12 @@
+<launch>
+
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen"/>
+
+  <node name="rosbridge_server" pkg="rosbridge_server" type="rosbridge_websocket"
+	respawn="false" output="screen">
+</node>
+<!--
+<node name="csim_cmd_joints" pkg="my_robotic_arm" type="csim_cmd_joints" respawn="false" output="screen" />
+--> 
+
+</launch>

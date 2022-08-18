@@ -1,0 +1,5 @@
+#/usr/bin/bash
+
+
+
+rosrun controller_manager spawner /gp7_robot/arm_joint_controller
