@@ -114,13 +114,16 @@ cd catkin_ws/src
 ```
 
 ```bash
-git clone --recursive https://github.com/munn33b/darknet_ros.git
+git clone --recursive -b updated https://github.com/munn33b/darknet_ros.git
 ```
 
 Next, build the workspace
+```bash
+cd ..
+```
 
 ```bash
-catkin_make darknet_ros -DCMAKE_BUILD_TYPE=Release
+catkin_make
 ```
 
 **Note:** This may take long time to compile everything, so please be patient, and wait for it to complete.
