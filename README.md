@@ -114,7 +114,7 @@ cd catkin_ws/src
 ```
 
 ```bash
-git clone https://github.com/munn33b/darknet_ros.git
+git clone --recursive https://github.com/munn33b/darknet_ros.git
 ```
 
 Next, build the workspace
@@ -174,7 +174,7 @@ cd catkin_ws/src
 and clone the following package "simExtROS", using command,
 
 ```bash
-git clone https://github.com/CoppeliaRobotics/simExtROS.git
+git clone https://github.com/CoppeliaRobotics/simROS.git
 ```
 
 Next, we need to make some modifications into the "messages.txt" file inside "meta" directory. Go to directory "simExtROS/meta/" and open file "messages.txt", using your favorite text editor. For me it's nano!
@@ -190,7 +190,7 @@ and add the following on first line of file,
 Next, compile the package, using,
 
 ```bash
-catkin_make sim_ros_interface
+catkin_make --only-pkg-with-deps sim_ros_interface
 ```
 
 Now, everything done, as far as the environment setup is concerned. We can now run the simulation!
