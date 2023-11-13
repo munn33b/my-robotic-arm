@@ -187,6 +187,19 @@ and add the following on first line of file,
 
 `rospy_tutorials/Floats`
 
+Then, run the following commands
+```bash
+cd sim_ros_interface
+```
+
+```bash
+git checkout coppeliasim-v4.3.0-rev12
+```
+You may also require the following package installed in Linux "xsltproc', for successful compilation. To install the package, run following command
+```bash
+sudo apt install xsltproc
+```
+
 Next, compile the package, using,
 
 ```bash
