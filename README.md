@@ -145,7 +145,7 @@ git clone https://github.com/munn33b/my-robotic-arm.git
 Now, build the three packages you have just cloned into your workspace.
 
 ```bash
-catkin_make my_robotic_arm gp7_visualization gp7_robot_moveit_config
+catkin_make --only-pkg-with-deps my_robotic_arm gp7_visualization gp7_robot_moveit_config
 ```
 
 Once everything is finished, source the workspace again:
