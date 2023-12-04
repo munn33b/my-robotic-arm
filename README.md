@@ -183,7 +183,7 @@ git clone https://github.com/CoppeliaRobotics/simROS.git sim_ros_interface
 Next, we need to make some modifications into the "messages.txt" file inside "meta" directory. Go to directory "simExtROS/meta/" and open file "messages.txt", using your favorite text editor. For me it's nano!
 
 ```bash
-nano simExtROS/meta/messages.txt
+nano sim_ros_interface/meta/messages.txt
 ```
 
 and add the following on first line of file,
