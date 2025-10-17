@@ -1,0 +1,19 @@
+{
+  "package_name": "custom_message",
+  "output_dir": "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_typesupport_introspection_cpp/custom_message",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_adapter/custom_message:msg/Floats.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_adapter/custom_message/msg/Floats.idl"
+  ]
+}

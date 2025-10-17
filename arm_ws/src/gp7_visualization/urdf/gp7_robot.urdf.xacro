@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot name="gp7_robot">
+
+  <link name="world"/>
+  
+  <joint name="joint_w" type="fixed">
+    <parent link="world"/>
+    <child link="base_link" />
+  </joint>
+  
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0661020995616514 0.000556312270044364 0.0576570103444227"
+        rpy="0 0 0" />
+      <mass
+        value="0.271689442075899" />
+      <inertia
+        ixx="0.000551467943673248"
+        ixy="-3.54874087127204E-06"
+        ixz="-1.62511816944923E-05"
+        iyy="0.000400129321443915"
+        iyz="-2.07321385851125E-06"
+        izz="0.000582594592679587" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/base_link.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link  name="link_1_s">
+    <inertial>
+      <origin
+        xyz="-0.0233610982039615 -0.0409634881495871 -0.00705078625461891"
+        rpy="0 0 0" />
+      <mass
+        value="0.206747811978373" />
+      <inertia
+        ixx="0.000217192211037989"
+        ixy="3.02142658957625E-09"
+        ixz="-2.88241124961472E-05"
+        iyy="0.000264027155022737"
+        iyz="3.1166711843164E-09"
+        izz="0.000175174988217507" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/link_1_s.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/link_1_s.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint  name="joint_1_s"
+    type="revolute">
+    <origin
+      xyz="0.039986 -0.0010471 0.33"
+      rpy="0 0 -0.02618" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_1_s" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.9671"
+      upper="2.9671"
+      effort="5"
+      velocity="6.545" />
+  </joint>
+
+  <link name="link_2_l">
+    <inertial>
+      <origin
+        xyz="-0.0153704712139654 0.0166692289806514 0.205508701542665"
+        rpy="0 0 0" />
+      <mass
+        value="0.562008352548831" />
+      <inertia
+        ixx="0.0105812150782623"
+        ixy="5.4546465153005E-08"
+        ixz="3.7360024414014E-05"
+        iyy="0.0111523147839964"
+        iyz="2.33071657229751E-07"
+        izz="0.00063823581235193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/link_2_l.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/link_2_l.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint  name="joint_2_l"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link_1_s" />
+    <child
+      link="link_2_l" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-1.1345"
+      upper="2.5307"
+      effort="5"
+      velocity="6.545" />
+  </joint>
+
+  <link name="link_3_u">
+    <inertial>
+      <origin
+        xyz="-0.000500936552424655 -0.00941969624887269 0.0218171190109101"
+        rpy="0 0 0" />
+      <mass
+        value="0.916688715390813" />
+      <inertia
+        ixx="0.00313972518885877"
+        ixy="2.67034756524424E-05"
+        ixz="-0.000282817305723292"
+        iyy="0.00272829103505119"
+        iyz="-3.99457173999864E-05"
+        izz="0.00216869170717903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/link_3_u.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/link_3_u.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint  name="joint_3_u"
+    type="revolute">
+    <origin
+      xyz="0 0 0.445"
+      rpy="0 0 0" />
+    <parent
+      link="link_2_l" />
+    <child
+      link="link_3_u" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-1.2217"
+      upper="3.3161"
+      effort="10"
+      velocity="6.545" />
+  </joint>
+
+  <link name="link_4_r">
+    <inertial>
+      <origin
+        xyz="-0.144528762363287 -0.000457848370011256 0.00100877854966697"
+        rpy="0 0 0" />
+      <mass
+        value="0.475362712918695" />
+      <inertia
+        ixx="0.00070363811082682"
+        ixy="-2.1462919267349E-06"
+        ixz="2.28110348065367E-06"
+        iyy="0.00128909280889087"
+        iyz="5.50773922973421E-06"
+        izz="0.00120913789427328" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/link_4_r.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/link_4_r.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint  name="joint_4_r"
+    type="fixed">
+    <origin
+      xyz="0.32065 0 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="link_3_u" />
+    <child
+      link="link_4_r" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.3161"
+      upper="3.3161"
+      effort="10"
+      velocity="9.5993" />
+  </joint>
+
+  <link name="link_5_b">
+    <inertial>
+      <origin
+        xyz="0.0215355985784859 -0.000865097565469207 0.000294489292992695"
+        rpy="0 0 0" />
+      <mass
+        value="0.160644623215161" />
+      <inertia
+        ixx="0.000125384637745521"
+        ixy="-8.52784920985105E-07"
+        ixz="-1.78578173872123E-06"
+        iyy="0.000141416384834468"
+        iyz="1.57237201658655E-07"
+        izz="0.00010333533136263" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/link_5_b.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/link_5_b.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_5_b"
+    type="fixed">
+    <origin
+      xyz="0.11935 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link_4_r" />
+    <child
+      link="link_5_b" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-2.3562"
+      upper="2.3562"
+      effort="5"
+      velocity="9.5993" />
+  </joint>
+
+  <link name="link_6_t">
+    <inertial>
+      <origin
+        xyz="0.010342612733208 0.000104247977295127 -1.55781338939676E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.0171282195454734" />
+      <inertia
+        ixx="6.71678663114005E-06"
+        ixy="-7.75547686204302E-09"
+        ixz="-6.7223545098088E-13"
+        iyy="3.48368238315858E-06"
+        iyz="2.65114482902148E-11"
+        izz="3.55123698727653E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/visual/link_6_t.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gp7_visualization/meshes/collision/link_6_t.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_6_t"
+    type="fixed">
+    <origin
+      xyz="0.065 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link_5_b" />
+    <child
+      link="link_6_t" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-6.1087"
+      upper="6.1087"
+      effort="10"
+      velocity="17.453" />
+  </joint>
+
+  <ros2_control name="HardwareSystem" type="system">
+    <hardware>
+      <plugin>dynamixel_hardware/DynamixelHardware</plugin>
+    </hardware>
+
+    <joint name="joint_1_s">
+      <command_interface name="position">
+        <param name="min">0</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+
+    </joint>
+
+    <joint name="joint_2_l">
+      <command_interface name="position">
+        <param name="min">-2.879793</param>
+        <param name="max">2.879793</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="joint_3_u">
+      <command_interface name="position">
+        <param name="min">-2.879793</param>
+        <param name="max">2.879793</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+  </ros2_control>
+
+
+  
+</robot>

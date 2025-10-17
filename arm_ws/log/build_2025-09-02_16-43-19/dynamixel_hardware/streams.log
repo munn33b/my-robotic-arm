@@ -1,0 +1,11 @@
+[0.040s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[0.558s] In file included from [01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:1[m[K:
+[0.559s] [01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Float32.hpp: No such file or directory
+[0.559s]     9 | #include [01;31m[K<std_msgs/msg/Float32.hpp>[m[K
+[0.559s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.559s] compilation terminated.
+[0.562s] gmake[2]: *** [CMakeFiles/dynamixel_hardware.dir/build.make:76: CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o] Error 1
+[0.562s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware.dir/all] Error 2
+[0.562s] gmake: *** [Makefile:146: all] Error 2
+[0.565s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8

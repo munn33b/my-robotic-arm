@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+ros2 param set /controller_manager arm_controller.type joint_trajectory_controller/JointTrajectoryController
+ros2 run controller_manager spawner -c /controller_manager -p /home/muneeb/my-robotic-arm/arm_ws/src/gp7_visualization/config/gp7_robot_controllers.yaml  arm_controller
+
+ros2 param set /controller_manager state_controller.type joint_state_broadcaster/JointStateBroadcaster
+ros2 run controller_manager spawner -c /controller_manager -p /home/muneeb/my-robotic-arm/arm_ws/src/gp7_visualization/config/gp7_robot_controllers.yaml  state_controller
+

@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config
+-- Install configuration: ""
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/gp7_robot_moveit_config
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/gp7_robot_moveit_config
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/environment/path.sh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/environment/path.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/local_setup.bash
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/local_setup.sh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/local_setup.zsh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/local_setup.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/ament_index/resource_index/packages/gp7_robot_moveit_config
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/cmake/gp7_robot_moveit_configConfig.cmake
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/cmake/gp7_robot_moveit_configConfig-version.cmake
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.xml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/move_group.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/rsp.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/demo.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/spawn_controllers.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/setup_assistant.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/launch/warehouse_db.launch.py
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/gp7_robot.urdf.xacro
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/gp7_robot.ros2_control.xacro
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/gp7_robot.srdf
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/joint_limits.yaml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/initial_positions.yaml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/kinematics.yaml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/config/moveit.rviz
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/.setup_assistant

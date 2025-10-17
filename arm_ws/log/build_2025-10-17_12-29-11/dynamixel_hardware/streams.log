@@ -1,0 +1,33 @@
+[0.105s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8
+[1.337s] [100%] Built target dynamixel_hardware
+[2.162s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8
+[2.170s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware
+[3.564s] -- Install configuration: ""
+[3.565s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/dynamixel_hardware.xml
+[3.579s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+[3.579s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include
+[3.580s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include/dynamixel_hardware
+[3.580s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+[3.580s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+[3.581s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+[3.581s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+[3.582s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+[3.582s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+[3.582s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+[3.583s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+[3.583s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+[3.598s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+[3.598s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+[3.599s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+[3.599s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+[3.600s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+[3.601s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+[3.602s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+[3.603s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+[3.603s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.604s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[3.604s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.605s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+[3.605s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+[3.606s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml
+[3.652s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware

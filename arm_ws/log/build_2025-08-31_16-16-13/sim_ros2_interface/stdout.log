@@ -1,0 +1,13 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+-- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+-- Found pendulum_msgs: 0.33.5 (/opt/ros/jazzy/share/pendulum_msgs/cmake)
+-- Found rosgraph_msgs: 2.0.2 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+-- Configuring incomplete, errors occurred!

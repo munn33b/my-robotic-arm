@@ -1,0 +1,495 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libcustom_message__rosidl_generator_py.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_core_generators/cmake/rosidl_core_generators-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_core_generators/cmake/rosidl_core_generatorsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_default_generators/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 149,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 170,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 17,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 17,
+				"line" : 41,
+				"parent" : 14
+			},
+			{
+				"file" : 16,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 15,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 14,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 14,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"file" : 13,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 13,
+				"line" : 41,
+				"parent" : 22
+			},
+			{
+				"file" : 12,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 13,
+				"parent" : 24
+			},
+			{
+				"file" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 26
+			},
+			{
+				"file" : 10,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"file" : 9,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 30
+			},
+			{
+				"file" : 8,
+				"parent" : 31
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 21,
+				"parent" : 32
+			},
+			{
+				"file" : 7,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 34
+			},
+			{
+				"file" : 6,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 36
+			},
+			{
+				"file" : 5,
+				"parent" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 20,
+				"parent" : 42
+			},
+			{
+				"command" : 7,
+				"file" : 20,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"file" : 19,
+				"parent" : 44
+			},
+			{
+				"command" : 1,
+				"file" : 19,
+				"line" : 41,
+				"parent" : 45
+			},
+			{
+				"file" : 18,
+				"parent" : 46
+			},
+			{
+				"command" : 9,
+				"file" : 18,
+				"line" : 25,
+				"parent" : 47
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 48,
+					"define" : "ROS_PACKAGE_NAME=\"custom_message\""
+				},
+				{
+					"define" : "custom_message__rosidl_generator_py_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 49,
+					"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_generator_py"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rcutils"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/muneeb/.local/lib/python3.12/site-packages/numpy/_core/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.12"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 40,
+			"id" : "custom_message__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "custom_message__py::@e99d0364fd9ef503c8b7"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "custom_message__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "custom_message__rosidl_generator_py::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/muneeb/my-robotic-arm/arm_ws/install/custom_message"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/muneeb/my-robotic-arm/arm_ws/build/custom_message:/opt/ros/jazzy/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.12.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "libcustom_message__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libcustom_message__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/jazzy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/jazzy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/opt/ros/jazzy/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "custom_message__rosidl_generator_py",
+	"nameOnDisk" : "libcustom_message__rosidl_generator_py.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_generator_py/custom_message/msg/_floats_s.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

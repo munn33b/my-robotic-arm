@@ -1,0 +1,503 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"coppeliasim_generate_stubs",
+			"coppeliasim_add_plugin",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_environment_hooks",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/cmake/FindCoppeliaSim.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 289,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 295,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 327,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 66,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 47,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 20,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 26,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 107,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 120,
+				"parent" : 26
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 10
+			},
+			{
+				"file" : 10,
+				"parent" : 32
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 16,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 29,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 35
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 68,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 150,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 157,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua",
+			"paths" : 
+			[
+				{
+					"from" : "/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/typecheck.lua",
+					"to" : "simROS2-typecheck.lua"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua",
+			"paths" : 
+			[
+				"lua/simROS2.lua"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/manual/en",
+			"paths" : 
+			[
+				{
+					"from" : "/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.html",
+					"to" : "simROS2.htm"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/manual/index",
+			"paths" : 
+			[
+				{
+					"from" : "/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/index.json",
+					"to" : "simROS2.json"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua",
+			"paths" : 
+			[
+				{
+					"from" : "/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/ce.lua",
+					"to" : "simROS2-ce.lua"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04",
+			"paths" : 
+			[
+				"libsimROS2.so"
+			],
+			"targetId" : "simROS2::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "simROS2::@6890427a1f51a3e7e1df",
+				"index" : 1
+			},
+			"destination" : "/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface/environment",
+			"paths" : 
+			[
+				"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface/environment",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface/environment",
+			"paths" : 
+			[
+				"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface/environment",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_index/share/ament_index/resource_index/packages/sim_ros2_interface"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface/cmake",
+			"paths" : 
+			[
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_core/sim_ros2_interfaceConfig.cmake",
+				"/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/ament_cmake_core/sim_ros2_interfaceConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/sim_ros2_interface",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

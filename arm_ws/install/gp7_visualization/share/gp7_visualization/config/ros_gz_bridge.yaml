@@ -1,0 +1,49 @@
+# gz topic published by the JointState plugin
+- ros_topic_name: "/scan"
+  gz_topic_name: "scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan" # In future, this will be gz.msgs.Model
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/overhead_camera"
+  gz_topic_name: "overhead_camera"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image" # In future, this will be gz.msgs.Model
+  direction: GZ_TO_ROS
+
+# gz topic subscribed by the JointPositionController plugin
+#- ros_topic_name: "arx_v5/joint1/cmd_pos"
+#  gz_topic_name: "model/arx_v5/joint/joint1/0/cmd_pos"
+#  ros_type_name: "std_msgs/msg/Float64"
+#  gz_type_name: "ignition.msgs.Double" # In future, this will be gz.msgs.Double
+#  direction: ROS_TO_GZ
+#
+#- ros_topic_name: "arx_v5/joint2/cmd_pos"
+#  gz_topic_name: "model/arx_v5/joint/joint2/0/cmd_pos"
+#  ros_type_name: "std_msgs/msg/Float64"
+#  gz_type_name: "ignition.msgs.Double" # In future, this will be gz.msgs.Double
+#  direction: ROS_TO_GZ
+#
+#- ros_topic_name: "arx_v5/joint3/cmd_pos"
+#  gz_topic_name: "model/arx_v5/joint/joint3/0/cmd_pos"
+#  ros_type_name: "std_msgs/msg/Float64"
+#  gz_type_name: "ignition.msgs.Double" # In future, this will be gz.msgs.Double
+#  direction: ROS_TO_GZ
+#
+#- ros_topic_name: "arx_v5/joint4/cmd_pos"
+#  gz_topic_name: "model/arx_v5/joint/joint4/0/cmd_pos"
+#  ros_type_name: "std_msgs/msg/Float64"
+#  gz_type_name: "ignition.msgs.Double" # In future, this will be gz.msgs.Double
+#  direction: ROS_TO_GZ
+#
+#- ros_topic_name: "arx_v5/joint5/cmd_pos"
+#  gz_topic_name: "model/arx_v5/joint/joint5/0/cmd_pos"
+#  ros_type_name: "std_msgs/msg/Float64"
+#  gz_type_name: "ignition.msgs.Double" # In future, this will be gz.msgs.Double
+#  direction: ROS_TO_GZ
+#
+#- ros_topic_name: "arx_v5/joint6/cmd_pos"
+#  gz_topic_name: "model/arx_v5/joint/joint6/0/cmd_pos"
+#  ros_type_name: "std_msgs/msg/Float64"
+#  gz_type_name: "ignition.msgs.Double" # In future, this will be gz.msgs.Double
+#  direction: ROS_TO_GZ

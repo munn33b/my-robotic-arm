@@ -1,0 +1,377 @@
+<?xml version="1.0" ?>
+<sdf version='1.9'>
+  <world name='simulation_world'>
+    <physics name='1ms' type='ignored'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <plugin name='ignition::gazebo::systems::Physics' filename='ignition-gazebo-physics-system'/>
+    <plugin name='ignition::gazebo::systems::Sensors' filename='ignition-gazebo-sensors-system'>
+      <render_engine>ogre</render_engine>
+    </plugin>
+    <plugin name='ignition::gazebo::systems::UserCommands' filename='ignition-gazebo-user-commands-system'/>
+    <plugin name='ignition::gazebo::systems::SceneBroadcaster' filename='ignition-gazebo-scene-broadcaster-system'/>
+    <scene>
+      <ambient>1 1 1 1</ambient>
+      <background>0.8 0.8 0.8 1</background>
+      <grid>true</grid>
+      <shadows>true</shadows>
+    </scene>
+    <gui fullscreen='false'>
+      <plugin name='3D View' filename='MinimalScene'>
+        <ignition-gui>
+          <title>3D View</title>
+          <property type='bool' key='showTitleBar'>false</property>
+          <property type='string' key='state'>docked</property>
+        </ignition-gui>
+        <engine>ogre2</engine>
+        <scene>scene</scene>
+        <ambient_light>0.4 0.4 0.4</ambient_light>
+        <background_color>0.8 0.8 0.8</background_color>
+        <camera_pose>-6 0 6 0 0.5 0</camera_pose>
+      </plugin>
+      <plugin name='Entity context menu' filename='EntityContextMenuPlugin'>
+        <ignition-gui>
+          <property key='state' type='string'>floating</property>
+          <property key='width' type='double'>5</property>
+          <property key='height' type='double'>5</property>
+          <property key='showTitleBar' type='bool'>false</property>
+        </ignition-gui>
+      </plugin>
+      <plugin name='Scene Manager' filename='GzSceneManager'>
+        <ignition-gui>
+          <property key='resizable' type='bool'>false</property>
+          <property key='width' type='double'>5</property>
+          <property key='height' type='double'>5</property>
+          <property key='state' type='string'>floating</property>
+          <property key='showTitleBar' type='bool'>false</property>
+        </ignition-gui>
+      </plugin>
+      <plugin name='Interactive view control' filename='InteractiveViewControl'>
+        <ignition-gui>
+          <property key='resizable' type='bool'>false</property>
+          <property key='width' type='double'>5</property>
+          <property key='height' type='double'>5</property>
+          <property key='state' type='string'>floating</property>
+          <property key='showTitleBar' type='bool'>false</property>
+        </ignition-gui>
+      </plugin>
+      <plugin name='Camera Tracking' filename='CameraTracking'>
+        <ignition-gui>
+          <property key='resizable' type='bool'>false</property>
+          <property key='width' type='double'>5</property>
+          <property key='height' type='double'>5</property>
+          <property key='state' type='string'>floating</property>
+          <property key='showTitleBar' type='bool'>false</property>
+        </ignition-gui>
+      </plugin>
+      <plugin name='World control' filename='WorldControl'>
+        <ignition-gui>
+          <title>World control</title>
+          <property type='bool' key='showTitleBar'>false</property>
+          <property type='bool' key='resizable'>false</property>
+          <property type='double' key='height'>72</property>
+          <property type='double' key='width'>121</property>
+          <property type='double' key='z'>1</property>
+          <property type='string' key='state'>floating</property>
+          <anchors target='3D View'>
+            <line own='left' target='left'/>
+            <line own='bottom' target='bottom'/>
+          </anchors>
+        </ignition-gui>
+        <play_pause>true</play_pause>
+        <step>true</step>
+        <start_paused>true</start_paused>
+        <use_event>true</use_event>
+      </plugin>
+      <plugin name='World stats' filename='WorldStats'>
+        <ignition-gui>
+          <title>World stats</title>
+          <property type='bool' key='showTitleBar'>false</property>
+          <property type='bool' key='resizable'>false</property>
+          <property type='double' key='height'>110</property>
+          <property type='double' key='width'>290</property>
+          <property type='double' key='z'>1</property>
+          <property type='string' key='state'>floating</property>
+          <anchors target='3D View'>
+            <line own='right' target='right'/>
+            <line own='bottom' target='bottom'/>
+          </anchors>
+        </ignition-gui>
+        <sim_time>true</sim_time>
+        <real_time>true</real_time>
+        <real_time_factor>true</real_time_factor>
+        <iterations>true</iterations>
+      </plugin>
+      <plugin name='Component inspector' filename='ComponentInspector'>
+        <ignition-gui>
+          <property type='string' key='state'>docked</property>
+        </ignition-gui>
+      </plugin>
+      <plugin name='Entity tree' filename='EntityTree'>
+        <ignition-gui>
+          <property type='string' key='state'>docked</property>
+        </ignition-gui>
+      </plugin>
+    </gui>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+    </model>
+    <!-- ROADS-->
+    <include>
+      <uri>model://ring_road_v2</uri>
+      <name>ring_road_v2</name>
+       <pose>0.101656 -0.078452 0.001 0 0 1.57</pose>
+    </include>
+
+
+    <!--Walls-->
+
+    <!-- Left-->
+    <include>
+      <uri>model://working_wall</uri>
+      <name>working_wall</name>
+       <pose>0.0968763 0.832985 0.15 0 0 0 </pose>
+    </include>
+    <!-- Right-->
+
+    <include>
+      <uri>model://working_wall</uri>
+      <name>working_wall_0</name>
+       <pose>0.0984354 -0.993087 0.15 0 0 0</pose>
+    </include>
+
+    <!-- Up-->
+    <include>
+      <uri>model://working_wall_2</uri>
+      <name>working_wall_1</name>
+       <pose>-0.936563 -0.0819793 0.15 0 0 1.5708</pose>
+    </include>
+
+    <!-- Down-->
+    <include>
+      <uri>model://working_wall_2</uri>
+      <name>working_wall_2</name>
+       <pose>1.13688 -0.0811864 0.15 0 0 1.5708</pose>
+    </include>
+
+
+
+  <!-- Pedestrian
+    <include>
+      <uri>model://pedestrian</uri>
+      <name>pedestrian1</name>
+      <pose>-0.426019 0.661035 0.002 0 0 0</pose>
+    </include> -->
+
+    <!-- Traffic lights
+    <include>
+      <uri>model://trafficlight</uri>
+      <name>trafficlight1</name>
+      <pose>-0.035635 -0.649876 0.002 0 0 -1.983460</pose>
+    </include> -->
+
+  <!-- Pedestrian -->
+    <!--<include>
+      <uri>model://pedestrian</uri>
+      <name>pedestrian1</name>
+      <pose>-0.526019 0.661035 0.002 0 0 0</pose>
+    </include>-->
+
+    <!-- Traffic lights -->
+    <!--<include>
+      <uri>model://trafficlight</uri>
+      <name>trafficlight1</name>
+      <pose>-0.035635 -0.649876 0.002 0 0 -1.983460</pose>
+    </include>-->
+
+
+    <!-- Street Signals  -->
+    <!--
+    <include>
+      <uri>model://street_sign_turnban</uri>
+      <name>street_sign_turnban1</name>
+      <pose>0.067692 0.687554 0.002 0 0 0</pose>
+    </include>
+    -->
+    <!-- <include>
+      <uri>model://triangular_prism_direccion_obligada</uri>
+      <name>triangular_prism_direccion_obligada0</name>
+       <pose>0.067692 0.687554 0 0 0 1.5708</pose>
+    </include> -->
+
+    <!-- Cardboard Obstacle 1 -->
+    <include>
+      <uri>model://triangular_prism_stop</uri>
+      <name>triangular_prism_stop1</name>
+       <pose>-0.2 -0.0519793 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- Cardboard Obstacle 2 -->
+    <include>
+      <uri>model://triangular_prism_direccion_obligada</uri>
+      <name>triangular_prism_direccion_obligada1</name>
+       <pose>-0.2 -0.2 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- Cardboard Obstacle 3 -->
+    <include>
+      <uri>model://triangular_prism_direccion_obligada</uri>
+      <name>triangular_prism_direccion_obligada2</name>
+       <pose>-0.05 -0.0519793 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- Cardboard Obstacle 4 -->
+    <include>
+      <uri>model://triangular_prism_stop</uri>
+      <name>triangular_prism_stop2</name>
+       <pose>-0.05 -0.2 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- Cardboard Obstacle 5 -->
+    <include>
+      <uri>model://triangular_prism_pedestrian</uri>
+      <name>triangular_prism_pedestrian0</name>
+       <pose>0.45 0.0 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- Cardboard Obstacle 6 -->
+    <include>
+      <uri>model://triangular_prism_pedestrian</uri>
+      <name>triangular_prism_pedestrian1</name>
+       <pose>0.45 -0.25 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- Fixed Camera-->
+    <include>
+      <pose>0 0 2.5 0 1.57 0</pose>
+      <uri>model://overlord_camera</uri>
+    </include>
+
+
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+
+
+
+        <pose>2.082248 0.691252 1.153800 0 0.509800 -2.815194</pose>
+
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+
+    <audio>
+      <device>default</device>
+    </audio>
+
+
+    <!-- Lights -->
+    <light name='user_point_light_0' type='point'>
+      <pose frame=''>0 0 1.0 0 0 0</pose>
+      <diffuse>0.2 0.2 0.2 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_1' type='point'>
+      <pose frame=''>0 -1.0 1.0 0 0 0</pose>
+      <diffuse>0.2 0.2 0.2 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <light name='user_point_light_2' type='point'>
+      <pose frame=''>0 1.0 1.0 0 0 0</pose>
+      <diffuse>0.2 0.2 0.2 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>10</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 -0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.1 -0.9</direction>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.8 0.8 0.8 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <linear>0.01</linear>
+        <constant>0.90000000000000002</constant>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>

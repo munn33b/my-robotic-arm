@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface -DCMAKE_INSTALL_PREFIX=/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface
+[0.060s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.428s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.431s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[0.467s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.645s] -- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[0.680s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[0.831s] -- Found pendulum_msgs: 0.33.5 (/opt/ros/jazzy/share/pendulum_msgs/cmake)
+[0.849s] -- Found rosgraph_msgs: 2.0.2 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+[0.897s] [31mCMake Error at CMakeLists.txt:39 (find_package):
+[0.897s]   By not providing "Findcustom_message.cmake" in CMAKE_MODULE_PATH this
+[0.898s]   project has asked CMake to find a package configuration file provided by
+[0.898s]   "custom_message", but CMake did not find one.
+[0.898s] 
+[0.898s]   Could not find a package configuration file provided by "custom_message"
+[0.898s]   with any of the following names:
+[0.899s] 
+[0.899s]     custom_messageConfig.cmake
+[0.899s]     custom_message-config.cmake
+[0.899s] 
+[0.899s]   Add the installation prefix of "custom_message" to CMAKE_PREFIX_PATH or set
+[0.899s]   "custom_message_DIR" to a directory containing one of the above files.  If
+[0.899s]   "custom_message" provides a separate development package or SDK, be sure it
+[0.900s]   has been installed.
+[0.900s] 
+[0.900s] [0m
+[0.900s] -- Configuring incomplete, errors occurred!
+[0.917s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface -DCMAKE_INSTALL_PREFIX=/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface

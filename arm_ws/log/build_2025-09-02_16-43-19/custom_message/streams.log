@@ -1,0 +1,24 @@
+[0.046s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/custom_message -- -j8 -l8
+[0.103s] [  2%] Built target custom_message__rosidl_generator_type_description
+[0.190s] [  2%] Built target ament_cmake_python_copy_custom_message
+[0.239s] [  8%] Built target custom_message__cpp
+[0.239s] [ 20%] Built target custom_message__rosidl_generator_c
+[0.283s] [ 29%] Built target custom_message__rosidl_typesupport_c
+[0.283s] [ 47%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[0.283s] [ 47%] Built target custom_message__rosidl_typesupport_introspection_c
+[0.283s] [ 55%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[0.283s] [ 64%] Built target custom_message__rosidl_typesupport_cpp
+[0.284s] [ 73%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[0.287s] [ 73%] Built target custom_message
+[0.293s] [ 76%] Built target custom_message__py
+[0.293s] [ 82%] Built target custom_message__rosidl_generator_py
+[0.330s] [ 88%] Built target custom_message_s__rosidl_typesupport_fastrtps_c
+[0.330s] [ 94%] Built target custom_message_s__rosidl_typesupport_c
+[0.332s] [100%] Built target custom_message_s__rosidl_typesupport_introspection_c
+[0.507s] running egg_info
+[0.544s] writing custom_message.egg-info/PKG-INFO
+[0.544s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[0.544s] writing top-level names to custom_message.egg-info/top_level.txt
+[0.653s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.653s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.686s] [100%] Built target ament_cmake_python_build_custom_message_egg

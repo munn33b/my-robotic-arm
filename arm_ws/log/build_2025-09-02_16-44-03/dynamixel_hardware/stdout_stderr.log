@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdynamixel_hardware.so[0m
+[100%] Built target dynamixel_hardware
+-- Install configuration: ""
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/dynamixel_hardware.xml
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+-- Set non-toolchain portion of runtime path of "/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so" to ""
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include/dynamixel_hardware
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+-- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml

@@ -1,0 +1,22 @@
+[33mCMake Warning (dev) at /opt/ros/jazzy/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/realtime_tools/cmake/realtime_toolsConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/hardware_interface/cmake/hardware_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn dynamixel_hardware::DynamixelHardware::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:12:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   12 |     if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != hardware_interface::CallbackReturn::SUCCESS)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp:4[m[K,
+                 from [01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:226:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  226 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+      |                          [01;36m[K^~~~~~~[m[K

@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_message",
+  "non_idl_tuples": [
+    "/home/muneeb/my-robotic-arm/arm_ws/src/custom_message:msg/Floats.msg"
+  ]
+}

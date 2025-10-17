@@ -1,0 +1,10 @@
+[0.043s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8
+[0.275s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[3.675s] [01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.675s] [01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:98:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kangles[m[K’ has not been declared
+[3.675s]    98 |         float deg = static_cast<float>([01;31m[Kangles[m[K::to_degrees(position_commands_[i]));
+[3.675s]       |                                        [01;31m[K^~~~~~[m[K
+[6.666s] gmake[2]: *** [CMakeFiles/dynamixel_hardware.dir/build.make:76: CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o] Error 1
+[6.666s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware.dir/all] Error 2
+[6.666s] gmake: *** [Makefile:146: all] Error 2
+[6.669s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8

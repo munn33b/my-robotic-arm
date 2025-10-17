@@ -1,0 +1,22 @@
+[0.077s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[0.703s] [ 75%] Built target generate_ros_code
+[0.892s] [100%] Built target simROS2
+[1.063s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[1.069s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[1.738s] -- Install configuration: ""
+[1.738s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface
+[1.739s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface
+[1.740s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.sh
+[1.740s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.dsv
+[1.740s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.sh
+[1.740s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.dsv
+[1.741s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.bash
+[1.741s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.sh
+[1.741s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.zsh
+[1.741s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.dsv
+[1.742s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv
+[1.742s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/packages/sim_ros2_interface
+[1.742s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig.cmake
+[1.742s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig-version.cmake
+[1.743s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.xml
+[1.758s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface

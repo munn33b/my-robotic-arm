@@ -1,0 +1,4 @@
+source;share/dynamixel_hardware/local_setup.bash
+source;share/dynamixel_hardware/local_setup.dsv
+source;share/dynamixel_hardware/local_setup.sh
+source;share/dynamixel_hardware/local_setup.zsh

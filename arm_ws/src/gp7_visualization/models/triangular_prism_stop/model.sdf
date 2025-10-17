@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name='triangular_prism_stop'>
+        <static>1</static>
+        <link name='link'>
+            <collision name='collision'>
+            <geometry>
+                <mesh>
+                <uri>model://triangular_prism/meshes/triangular_prism.dae</uri>
+                <scale>1 1 1</scale>
+                </mesh> 
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+                <contact>
+                <ode/>
+                </contact>
+                <bounce/>
+                <friction>
+                <ode/>
+                </friction>
+            </surface>
+            </collision>
+
+            <visual name='visual_prism'>
+                <cast_shadows>0</cast_shadows>
+                <geometry>
+                    <mesh>
+                    <uri>model://triangular_prism/meshes/triangular_prism.dae</uri>
+                    <scale>1 1 1</scale>
+                    </mesh> 
+                </geometry>         
+            </visual>
+
+            <visual name="visual_traffic">
+                <pose>0 -0.029307 0.111493 0 -0 0</pose>
+                <cast_shadows>0</cast_shadows>
+                <geometry>
+                    <mesh>
+                    <uri>model://stop_sign_prism/meshes/signal_stop_fix.dae</uri>
+                    <scale>1 1 1</scale>
+                    </mesh> 
+                </geometry>  
+            </visual>
+
+            <visual name="visual_traffic_2">
+                <pose>0.026212 0.014368 0.111493 0 -0 2.0907504363002</pose>
+                <cast_shadows>0</cast_shadows>
+                <geometry>
+                    <mesh>
+                    <uri>model://stop_sign_prism/meshes/signal_stop_fix.dae</uri>
+                    <scale>1 1 1</scale>
+                    </mesh> 
+                </geometry>  
+            </visual>
+
+            <visual name="visual_traffic_3">
+                <pose>-0.026139 0.013183 0.111493 0 0 4.1908202443281</pose>
+                <cast_shadows>0</cast_shadows>
+                <geometry>
+                    <mesh>
+                    <uri>model://stop_sign_prism/meshes/signal_stop_fix.dae</uri>
+                    <scale>1 1 1</scale>
+                    </mesh> 
+                </geometry>  
+            </visual>
+
+            <self_collide>0</self_collide>
+            <kinematic>0</kinematic>
+            <gravity>1</gravity>
+        </link>
+        <pose>0 0 0 0 -0 0</pose>
+    </model>
+</sdf>

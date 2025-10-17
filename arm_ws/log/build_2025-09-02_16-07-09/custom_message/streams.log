@@ -1,0 +1,148 @@
+[0.044s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/custom_message -- -j8 -l8
+[0.104s] [  2%] Built target custom_message__rosidl_generator_type_description
+[0.168s] [  2%] Built target ament_cmake_python_copy_custom_message
+[0.237s] [  5%] Built target custom_message__cpp
+[0.238s] [ 20%] Built target custom_message__rosidl_generator_c
+[0.255s] [ 38%] Built target custom_message__rosidl_typesupport_c
+[0.255s] [ 38%] Built target custom_message__rosidl_typesupport_introspection_c
+[0.256s] [ 47%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[0.256s] [ 55%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[0.256s] [ 64%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[0.256s] [ 73%] Built target custom_message__rosidl_typesupport_cpp
+[0.257s] [ 73%] Built target custom_message
+[0.263s] [ 76%] Built target custom_message__py
+[0.289s] [ 82%] Built target custom_message__rosidl_generator_py
+[0.319s] [ 88%] Built target custom_message_s__rosidl_typesupport_c
+[0.324s] [ 94%] Built target custom_message_s__rosidl_typesupport_introspection_c
+[0.324s] [100%] Built target custom_message_s__rosidl_typesupport_fastrtps_c
+[0.538s] running egg_info
+[0.574s] writing custom_message.egg-info/PKG-INFO
+[0.574s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[0.574s] writing top-level names to custom_message.egg-info/top_level.txt
+[0.692s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.692s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.727s] [100%] Built target ament_cmake_python_build_custom_message_egg
+[0.740s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/custom_message -- -j8 -l8
+[0.741s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/custom_message
+[0.750s] -- Install configuration: ""
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/msg/Floats.json
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_c__visibility_control.h
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/floats.h
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__struct.h
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__type_support.h
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__description.c
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__functions.h
+[0.751s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__type_support.c
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__functions.c
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/library_path.sh
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/library_path.dsv
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_generator_c.so
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__rosidl_typesupport_fastrtps_c.h
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message
+[0.752s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__type_support.c
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__rosidl_typesupport_introspection_c.h
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/floats.hpp
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[0.753s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__builder.hpp
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__type_support.hpp
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__struct.hpp
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__traits.hpp
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/dds_fastrtps
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__rosidl_typesupport_fastrtps_cpp.hpp
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message
+[0.754s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__type_support.cpp
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/include/custom_message/custom_message/msg/detail/floats__rosidl_typesupport_introspection_cpp.hpp
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/pythonpath.sh
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/pythonpath.dsv
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info
+[0.755s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/top_level.txt
+[0.755s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/PKG-INFO
+[0.755s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.755s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.755s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.so
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.so
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/msg
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/msg/_floats.py
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/msg/__init__.py
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/msg/_floats_s.c
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/__init__.py
+[0.756s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.so
+[0.794s] Listing '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message'...
+[0.794s] Listing '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/msg'...
+[0.803s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.so
+[0.803s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.so
+[0.803s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.so
+[0.803s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/libcustom_message__rosidl_generator_py.so
+[0.803s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/msg/Floats.idl
+[0.803s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/msg/Floats.msg
+[0.804s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/custom_message/person_publisher
+[0.804s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message
+[0.804s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message
+[0.804s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/ament_prefix_path.sh
+[0.804s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv
+[0.804s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/path.sh
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/environment/path.dsv
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/local_setup.bash
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/local_setup.sh
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/local_setup.zsh
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/local_setup.dsv
+[0.805s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.dsv
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/ament_index/resource_index/packages/custom_message
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport.cmake
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport-noconfig.cmake
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport.cmake
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.805s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cppExport.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport-noconfig.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.806s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake
+[0.807s] -- Up-to-date: /home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.xml
+[0.809s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/custom_message

@@ -1,0 +1,416 @@
+[0.313s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.313s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x799b12ad9eb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x799b12a57bf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x799b12a57bf0>>, mixin_verb=('build',))
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.391s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/muneeb/my-robotic-arm/arm_ws'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_message' with type 'ros.ament_cmake' and name 'custom_message'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_hardware' with type 'ros.ament_cmake' and name 'dynamixel_hardware'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_robot_moveit_config) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gp7_robot_moveit_config' with type 'ros.ament_cmake' and name 'gp7_robot_moveit_config'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gp7_visualization) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gp7_visualization' with type 'ros.ament_cmake' and name 'gp7_visualization'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sim_ros2_interface' with type 'ros.ament_cmake' and name 'sim_ros2_interface'
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/muneeb/my-robotic-arm/arm_ws/install
+[0.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 469 installed packages in /opt/ros/jazzy
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.679s] DEBUG:colcon.colcon_core.verb:Building package 'custom_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message', 'merge_install': False, 'path': '/home/muneeb/my-robotic-arm/arm_ws/src/custom_message', 'symlink_install': False, 'test_result_base': None}
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware', 'merge_install': False, 'path': '/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'gp7_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.682s] DEBUG:colcon.colcon_core.verb:Building package 'gp7_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization', 'merge_install': False, 'path': '/home/muneeb/my-robotic-arm/arm_ws/src/gp7_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_target' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'sim_ros2_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface', 'merge_install': False, 'path': '/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface', 'symlink_install': False, 'test_result_base': None}
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'gp7_robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.684s] DEBUG:colcon.colcon_core.verb:Building package 'gp7_robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config', 'merge_install': False, 'path': '/home/muneeb/my-robotic-arm/arm_ws/src/gp7_robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.684s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/muneeb/my-robotic-arm/arm_ws/src/gp7_visualization' with build type 'ament_cmake'
+[0.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/muneeb/my-robotic-arm/arm_ws/src/gp7_visualization'
+[0.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/muneeb/my-robotic-arm/arm_ws/src/custom_message' with build type 'ament_cmake'
+[0.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/muneeb/my-robotic-arm/arm_ws/src/custom_message'
+[0.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware'
+[0.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface' with build type 'ament_cmake'
+[0.731s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface'
+[0.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization -- -j8 -l8
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/custom_message -- -j8 -l8
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization -- -j8 -l8
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization
+[1.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware -- -j8 -l8
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[1.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[2.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gp7_visualization)
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization' for CMake module files
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization' for CMake config files
+[2.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization
+[2.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('gp7_visualization', 'cmake_prefix_path')
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/hook/cmake_prefix_path.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/hook/cmake_prefix_path.dsv'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/hook/cmake_prefix_path.sh'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/bin'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/lib/pkgconfig/gp7_visualization.pc'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/lib/python3.12/site-packages'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/bin'
+[2.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.ps1'
+[2.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.dsv'
+[2.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.sh'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.bash'
+[2.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.zsh'
+[2.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/colcon-core/packages/gp7_visualization)
+[2.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gp7_visualization)
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization' for CMake module files
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization' for CMake config files
+[2.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('gp7_visualization', 'cmake_prefix_path')
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/hook/cmake_prefix_path.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/hook/cmake_prefix_path.dsv'
+[2.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/hook/cmake_prefix_path.sh'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/bin'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/lib/pkgconfig/gp7_visualization.pc'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/lib/python3.12/site-packages'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/bin'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.ps1'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.dsv'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.sh'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.bash'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/gp7_visualization/package.zsh'
+[2.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization/share/colcon-core/packages/gp7_visualization)
+[2.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/muneeb/my-robotic-arm/arm_ws/src/gp7_robot_moveit_config' with build type 'ament_cmake'
+[2.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/muneeb/my-robotic-arm/arm_ws/src/gp7_robot_moveit_config'
+[2.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_ros2_interface)
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface' for CMake module files
+[2.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface' for CMake config files
+[2.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_ros2_interface', 'cmake_prefix_path')
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.ps1'
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.dsv'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.sh'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/lib/pkgconfig/sim_ros2_interface.pc'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/lib/python3.12/site-packages'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/bin'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.sh'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.bash'
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.zsh'
+[2.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/colcon-core/packages/sim_ros2_interface)
+[2.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_ros2_interface)
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface' for CMake module files
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface' for CMake config files
+[2.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_ros2_interface', 'cmake_prefix_path')
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.ps1'
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.dsv'
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.sh'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/bin'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/lib/pkgconfig/sim_ros2_interface.pc'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/lib/python3.12/site-packages'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/bin'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.ps1'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.sh'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.bash'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.zsh'
+[2.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/colcon-core/packages/sim_ros2_interface)
+[2.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware' for CMake module files
+[2.389s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware' for CMake config files
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware
+[2.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib'
+[2.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/bin'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/python3.12/site-packages'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/bin'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[2.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[2.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[2.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[2.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware' for CMake module files
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware' for CMake config files
+[2.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[2.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib'
+[2.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/bin'
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/lib/python3.12/site-packages'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/bin'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[2.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[2.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[2.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config': CMAKE_PREFIX_PATH=/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization:/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface:/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config:/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware:/home/muneeb/my-robotic-arm/arm_ws/install/custom_message:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config -- -j8 -l8
+[2.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/custom_message -- -j8 -l8
+[2.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/custom_message
+[2.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization:/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface:/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config:/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware:/home/muneeb/my-robotic-arm/arm_ws/install/custom_message:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config -- -j8 -l8
+[2.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config': CMAKE_PREFIX_PATH=/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization:/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface:/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config:/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware:/home/muneeb/my-robotic-arm/arm_ws/install/custom_message:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config
+[2.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gp7_robot_moveit_config)
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config' for CMake module files
+[2.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/muneeb/my-robotic-arm/arm_ws/install/gp7_visualization:/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface:/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config:/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware:/home/muneeb/my-robotic-arm/arm_ws/install/custom_message:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config
+[2.934s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config' for CMake config files
+[2.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('gp7_robot_moveit_config', 'cmake_prefix_path')
+[2.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/hook/cmake_prefix_path.sh'
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/bin'
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/lib/pkgconfig/gp7_robot_moveit_config.pc'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/lib/python3.12/site-packages'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/bin'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.ps1'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.dsv'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.sh'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.bash'
+[2.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.zsh'
+[2.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/colcon-core/packages/gp7_robot_moveit_config)
+[2.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gp7_robot_moveit_config)
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config' for CMake module files
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config' for CMake config files
+[2.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('gp7_robot_moveit_config', 'cmake_prefix_path')
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/hook/cmake_prefix_path.sh'
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/bin'
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/lib/pkgconfig/gp7_robot_moveit_config.pc'
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/lib/python3.12/site-packages'
+[2.950s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/bin'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.ps1'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.dsv'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.sh'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.bash'
+[2.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/gp7_robot_moveit_config/package.zsh'
+[2.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/gp7_robot_moveit_config/share/colcon-core/packages/gp7_robot_moveit_config)
+[2.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message)
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message' for CMake module files
+[3.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/custom_message
+[3.001s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message' for CMake config files
+[3.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'cmake_prefix_path')
+[3.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.ps1'
+[3.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.dsv'
+[3.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.sh'
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib'
+[3.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'ld_library_path_lib')
+[3.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.ps1'
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.dsv'
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.sh'
+[3.006s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/bin'
+[3.006s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/pkgconfig/custom_message.pc'
+[3.006s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages'
+[3.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'pythonpath')
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/pythonpath.ps1'
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/pythonpath.dsv'
+[3.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/pythonpath.sh'
+[3.009s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/bin'
+[3.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.ps1'
+[3.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.dsv'
+[3.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.sh'
+[3.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.bash'
+[3.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.zsh'
+[3.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/colcon-core/packages/custom_message)
+[3.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message)
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message' for CMake module files
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message' for CMake config files
+[3.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'cmake_prefix_path')
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.ps1'
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.sh'
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib'
+[3.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'ld_library_path_lib')
+[3.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.ps1'
+[3.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.sh'
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/bin'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/pkgconfig/custom_message.pc'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/lib/python3.12/site-packages'
+[3.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'pythonpath')
+[3.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/pythonpath.ps1'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/pythonpath.dsv'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/hook/pythonpath.sh'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/bin'
+[3.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.ps1'
+[3.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.dsv'
+[3.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.sh'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.bash'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/package.zsh'
+[3.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/colcon-core/packages/custom_message)
+[3.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.026s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.036s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.069s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muneeb/my-robotic-arm/arm_ws/install/local_setup.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/muneeb/my-robotic-arm/arm_ws/install/_local_setup_util_ps1.py'
+[3.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muneeb/my-robotic-arm/arm_ws/install/setup.ps1'
+[3.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muneeb/my-robotic-arm/arm_ws/install/local_setup.sh'
+[3.077s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/muneeb/my-robotic-arm/arm_ws/install/_local_setup_util_sh.py'
+[3.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muneeb/my-robotic-arm/arm_ws/install/setup.sh'
+[3.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muneeb/my-robotic-arm/arm_ws/install/local_setup.bash'
+[3.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muneeb/my-robotic-arm/arm_ws/install/setup.bash'
+[3.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muneeb/my-robotic-arm/arm_ws/install/local_setup.zsh'
+[3.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muneeb/my-robotic-arm/arm_ws/install/setup.zsh'

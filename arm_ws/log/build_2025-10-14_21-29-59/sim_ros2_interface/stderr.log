@@ -1,0 +1,22 @@
+[33mCMake Warning (dev) at /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/cmake/FindCoppeliaSim.cmake:306 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:64 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+/tmp/ccMN6qHv.s: Assembler messages:
+/tmp/ccMN6qHv.s: Internal error (Segmentation fault).
+Please report this bug.
+gmake[2]: *** [CMakeFiles/simROS2.dir/build.make:183: CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/simROS2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

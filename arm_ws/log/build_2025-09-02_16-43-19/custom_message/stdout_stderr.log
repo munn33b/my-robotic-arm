@@ -1,0 +1,23 @@
+[  2%] Built target custom_message__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_custom_message
+[  8%] Built target custom_message__cpp
+[ 20%] Built target custom_message__rosidl_generator_c
+[ 29%] Built target custom_message__rosidl_typesupport_c
+[ 47%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[ 47%] Built target custom_message__rosidl_typesupport_introspection_c
+[ 55%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[ 64%] Built target custom_message__rosidl_typesupport_cpp
+[ 73%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[ 73%] Built target custom_message
+[ 76%] Built target custom_message__py
+[ 82%] Built target custom_message__rosidl_generator_py
+[ 88%] Built target custom_message_s__rosidl_typesupport_fastrtps_c
+[ 94%] Built target custom_message_s__rosidl_typesupport_c
+[100%] Built target custom_message_s__rosidl_typesupport_introspection_c
+running egg_info
+writing custom_message.egg-info/PKG-INFO
+writing dependency_links to custom_message.egg-info/dependency_links.txt
+writing top-level names to custom_message.egg-info/top_level.txt
+reading manifest file 'custom_message.egg-info/SOURCES.txt'
+writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_custom_message_egg

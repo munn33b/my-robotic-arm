@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_message",
+  "output_dir": "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_generator_type_description/custom_message",
+  "idl_tuples": [
+    "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_adapter/custom_message:msg/Floats.idl"
+  ]
+}

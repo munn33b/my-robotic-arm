@@ -1,0 +1,57 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+-- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+-- Found pendulum_msgs: 0.33.7 (/opt/ros/jazzy/share/pendulum_msgs/cmake)
+-- Found rosgraph_msgs: 2.0.3 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+-- Found custom_message: 0.0.0 (/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake)
+-- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+-- Found stereo_msgs: 5.3.6 (/opt/ros/jazzy/share/stereo_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include
+-- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- Checking CoppeliaSim header version...
+-- CoppeliaSim headers version 4.10.0 rev0
+-- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/addOns
+-- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/manual
+-- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/models
+-- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/scenes
+-- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua
+-- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/python
+-- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/coppeliaSim
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: regex
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")
+-- Adding simStubsGen command...
+-- Reading plugin metadata...
+-- Plugin: simROS2
+-- Configuring done (4.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[ 75%] Built target generate_ros_code
+[ 77%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simLib/simLib.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Plugin.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Lib.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o[0m

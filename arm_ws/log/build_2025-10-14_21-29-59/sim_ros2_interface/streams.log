@@ -1,0 +1,81 @@
+[0.022s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[0.359s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.662s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.671s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[0.708s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.719s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.846s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.875s] -- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[0.903s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[1.079s] -- Found pendulum_msgs: 0.33.7 (/opt/ros/jazzy/share/pendulum_msgs/cmake)
+[1.108s] -- Found rosgraph_msgs: 2.0.3 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+[1.131s] -- Found custom_message: 0.0.0 (/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake)
+[1.148s] -- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[1.177s] -- Found stereo_msgs: 5.3.6 (/opt/ros/jazzy/share/stereo_msgs/cmake)
+[1.215s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.225s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.227s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.372s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.378s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.729s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[1.755s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.795s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.822s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.850s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.859s] -- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include
+[1.859s] -- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[1.859s] -- Checking CoppeliaSim header version...
+[2.644s] -- CoppeliaSim headers version 4.10.0 rev0
+[2.644s] -- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.644s] -- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.644s] -- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.644s] -- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.644s] -- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/addOns
+[2.645s] -- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/manual
+[2.645s] -- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/models
+[2.645s] -- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/scenes
+[2.645s] -- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua
+[2.645s] -- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/python
+[2.645s] -- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/coppeliaSim
+[2.647s] [33mCMake Warning (dev) at /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/cmake/FindCoppeliaSim.cmake:306 (find_package):
+[2.647s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.647s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.647s]   set the policy and suppress this warning.
+[2.647s] 
+[2.647s] Call Stack (most recent call first):
+[2.648s]   CMakeLists.txt:62 (find_package)
+[2.648s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.648s] [0m
+[2.658s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: regex
+[2.946s] [33mCMake Warning (dev) at CMakeLists.txt:64 (find_package):
+[2.946s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.946s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.946s]   set the policy and suppress this warning.
+[2.946s] 
+[2.946s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.947s] [0m
+[2.951s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")
+[2.954s] -- Adding simStubsGen command...
+[3.187s] -- Reading plugin metadata...
+[4.257s] -- Plugin: simROS2
+[4.392s] -- Configuring done (4.0s)
+[4.430s] -- Generating done (0.0s)
+[4.434s] -- Build files have been written to: /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[4.482s] [ 75%] Built target generate_ros_code
+[4.543s] [ 77%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simLib/simLib.cpp.o[0m
+[5.233s] [ 80%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Plugin.cpp.o[0m
+[5.234s] [ 82%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o[0m
+[5.235s] [ 85%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Lib.cpp.o[0m
+[5.497s] [ 90%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o[0m
+[5.497s] [ 90%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o[0m
+[5.502s] [ 92%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o[0m
+[112.650s] /tmp/ccMN6qHv.s: Assembler messages:
+[112.650s] /tmp/ccMN6qHv.s: Internal error (Segmentation fault).
+[112.650s] Please report this bug.
+[113.454s] gmake[2]: *** [CMakeFiles/simROS2.dir/build.make:183: CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o] Error 1
+[113.455s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/simROS2.dir/all] Error 2
+[113.455s] gmake: *** [Makefile:146: all] Error 2
+[113.457s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /home/muneeb/.local/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8

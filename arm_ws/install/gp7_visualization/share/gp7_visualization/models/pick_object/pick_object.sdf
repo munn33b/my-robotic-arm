@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="test_model">
+    <static>true</static>
+    <link name="link">
+
+      <!-- Inertial properties -->
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <!-- Replace these values with actual values for your object -->
+          <ixx>0.01</ixx>
+          <iyy>0.01</iyy>
+          <izz>0.01</izz>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyz>0.0</iyz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose> <!-- Optional: adjust pose of the center of mass -->
+      </inertial>
+      <!-- Visual properties -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>file:///home/muneeb/Public/robotics_ws/src/bras_robot_description/models/pick_object/meshes/test_obj.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- Collision properties -->
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>file:///home/muneeb/Public/robotics_ws/src/bras_robot_description/models/pick_object/meshes/test_obj.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,7 @@
+[01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type dynamixel_hardware::DynamixelHardware::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware/src/dynamixel_hardware.cpp:98:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kangles[m[K’ has not been declared
+   98 |         float deg = static_cast<float>([01;31m[Kangles[m[K::to_degrees(position_commands_[i]));
+      |                                        [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dynamixel_hardware.dir/build.make:76: CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

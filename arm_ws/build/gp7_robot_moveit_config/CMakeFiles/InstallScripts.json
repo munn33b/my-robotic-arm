@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/muneeb/my-robotic-arm/arm_ws/build/gp7_robot_moveit_config/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

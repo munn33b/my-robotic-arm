@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: gp7_visualization
+    relative_path: urdf/gp7_robot.urdf.xacro
+  srdf:
+    relative_path: config/gp7_robot.srdf
+  package_settings:
+    author_name: muneeb
+    author_email: muneeb@muneeb.me
+    generated_timestamp: 1760459211
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

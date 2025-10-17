@@ -1,0 +1,102 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # update_rate specifies how often (in Hz) the controllers should be updated.
+
+    # The JointTrajectoryController allows you to send joint trajectory commands to a group
+    # of joints on a robot. These commands specify the desired positions for each joint.
+
+
+    # Responsible for publishing the current state of the robot's joints to the /joint_states
+    # ROS 2 topic
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+
+diff_controller:
+  ros__parameters:
+    type: diff_drive_controller/DiffDriveController
+
+    left_wheel_names: ['joint_fl', 'joint_bl']
+    right_wheel_names: ['joint_fr', 'joint_br']
+
+    wheel_separation : 0.38
+    wheel_radius : 0.1
+
+    pose_covariance_diagonal : [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]
+    twist_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]
+
+    wheel_separation_multiplier: 1.0 # default: 1.0
+    wheel_radius_multiplier    : 1.0 # default: 1.0
+
+    cmd_vel_timeout: 0.25
+
+    base_frame_id: "base_link"
+    odom_frame_id: "odom"
+    odom_topic: "/odom"  # Set the odometry topic to /odom
+
+    enable_odom_tf: true
+    enable_stamped_cmd_vel: true
+    use_stamped_vel: true
+
+
+    linear:
+      x:
+        has_velocity_limits    : true
+        max_velocity           : 3.4  # m/s
+        min_velocity           : -3.4 # m/s
+        has_acceleration_limits: true
+        max_acceleration       : 0.05  # m/s^2
+        min_acceleration       : -0.05 # m/s^2
+        has_jerk_limits        : false
+        max_jerk               : 0.05  # m/s^3
+    angular:
+      z:
+        has_velocity_limits    : true
+        max_velocity           : 1.5  # rad/s
+        has_acceleration_limits: true
+        max_acceleration       : 0.05  # rad/s^2
+        has_jerk_limits        : true
+        max_jerk               : 0.05 # rad/s^3
+
+# Define the parameters for each controller
+arm_controller:
+  ros__parameters:
+    type: joint_trajectory_controller/JointTrajectoryController
+
+    joints:
+      - LL_FAA
+      - LL_FFE
+      - LL_KFE
+      - LL_HFE
+      - LL_HAA
+      - LL_HR
+      - LR_FAA
+      - LR_FFE
+      - LR_KFE
+      - LR_HFE
+      - LR_HAA
+      - LR_HR
+
+
+
+    # The controller will expect position commands as input for each of these joints.
+    command_interfaces:
+      - position
+
+    # Tells the controller that it should expect to receive position data as the state
+    # feedback from the hardware interface,
+    state_interfaces:
+      - position
+
+gripper_controller:
+  ros__parameters:
+    type: position_controllers/GripperActionController
+
+    joint: 'joint_gripper_left_link'
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+

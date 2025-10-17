@@ -1,0 +1,30 @@
+[0.037s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake /home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware -DCMAKE_INSTALL_PREFIX=/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware
+[0.058s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.373s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.424s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.446s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.905s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.968s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.438s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[1.438s]   By not providing "Findcustom_message.cmake" in CMAKE_MODULE_PATH this
+[1.438s]   project has asked CMake to find a package configuration file provided by
+[1.439s]   "custom_message", but CMake did not find one.
+[1.439s] 
+[1.439s]   Could not find a package configuration file provided by "custom_message"
+[1.439s]   with any of the following names:
+[1.439s] 
+[1.439s]     custom_messageConfig.cmake
+[1.440s]     custom_message-config.cmake
+[1.440s] 
+[1.440s]   Add the installation prefix of "custom_message" to CMAKE_PREFIX_PATH or set
+[1.440s]   "custom_message_DIR" to a directory containing one of the above files.  If
+[1.440s]   "custom_message" provides a separate development package or SDK, be sure it
+[1.440s]   has been installed.
+[1.440s] 
+[1.441s] [0m
+[1.441s] -- Configuring incomplete, errors occurred!

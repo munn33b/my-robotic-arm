@@ -1,0 +1,15 @@
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.sh
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.dsv
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.sh
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.dsv
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.bash
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.sh
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.zsh
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.dsv
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/packages/sim_ros2_interface
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig.cmake
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig-version.cmake
+/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.xml

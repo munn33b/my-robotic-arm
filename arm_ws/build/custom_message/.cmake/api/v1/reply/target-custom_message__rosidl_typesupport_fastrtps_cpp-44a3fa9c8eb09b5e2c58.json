@@ -1,0 +1,641 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libcustom_message__rosidl_typesupport_fastrtps_cpp.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/rmw/cmake/rmwExport.cmake",
+			"/opt/ros/jazzy/share/rmw/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/jazzy/share/rmw/cmake/rmwConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cppConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cpp-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cppConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_core_generators/cmake/rosidl_core_generators-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_core_generators/cmake/rosidl_core_generatorsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_default_generators/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 14,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 10
+			},
+			{
+				"file" : 13,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"file" : 12,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 14
+			},
+			{
+				"file" : 11,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 10,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 9,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 13,
+				"parent" : 20
+			},
+			{
+				"file" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 22
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"file" : 6,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 26
+			},
+			{
+				"file" : 5,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 28
+			},
+			{
+				"file" : 4,
+				"parent" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 23,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 23,
+				"line" : 41,
+				"parent" : 33
+			},
+			{
+				"file" : 22,
+				"parent" : 34
+			},
+			{
+				"command" : 7,
+				"file" : 22,
+				"line" : 13,
+				"parent" : 35
+			},
+			{
+				"file" : 21,
+				"parent" : 36
+			},
+			{
+				"command" : 1,
+				"file" : 21,
+				"line" : 41,
+				"parent" : 37
+			},
+			{
+				"file" : 20,
+				"parent" : 38
+			},
+			{
+				"command" : 7,
+				"file" : 20,
+				"line" : 21,
+				"parent" : 39
+			},
+			{
+				"file" : 19,
+				"parent" : 40
+			},
+			{
+				"command" : 1,
+				"file" : 19,
+				"line" : 41,
+				"parent" : 41
+			},
+			{
+				"file" : 18,
+				"parent" : 42
+			},
+			{
+				"command" : 7,
+				"file" : 18,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"file" : 17,
+				"parent" : 44
+			},
+			{
+				"command" : 1,
+				"file" : 17,
+				"line" : 41,
+				"parent" : 45
+			},
+			{
+				"file" : 16,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 9,
+				"parent" : 47
+			},
+			{
+				"file" : 15,
+				"parent" : 48
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 61,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 24,
+				"parent" : 51
+			},
+			{
+				"command" : 8,
+				"file" : 24,
+				"line" : 164,
+				"parent" : 52
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 27,
+				"parent" : 56
+			},
+			{
+				"command" : 7,
+				"file" : 27,
+				"line" : 21,
+				"parent" : 57
+			},
+			{
+				"file" : 26,
+				"parent" : 58
+			},
+			{
+				"command" : 1,
+				"file" : 26,
+				"line" : 41,
+				"parent" : 59
+			},
+			{
+				"file" : 25,
+				"parent" : 60
+			},
+			{
+				"command" : 11,
+				"file" : 25,
+				"line" : 25,
+				"parent" : 61
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++17 -fPIC"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 55,
+					"fragment" : "-Wredundant-decls"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "FASTCDR_DYN_LINK"
+				},
+				{
+					"define" : "ROSIDL_TYPESUPPORT_FASTRTPS_CPP_BUILDING_DLL_custom_message"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "ROS_PACKAGE_NAME=\"custom_message\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 63,
+					"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/fastcdr"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rmw"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rcutils"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_dynamic_typesupport"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 53,
+			"id" : "custom_message__cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "custom_message__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "custom_message__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/muneeb/my-robotic-arm/arm_ws/install/custom_message"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/jazzy/lib:/home/muneeb/my-robotic-arm/arm_ws/build/custom_message:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "libcustom_message__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/jazzy/lib/libfastcdr.so.2.2.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/jazzy/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/jazzy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/ros/jazzy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "custom_message__rosidl_typesupport_fastrtps_cpp",
+	"nameOnDisk" : "libcustom_message__rosidl_typesupport_fastrtps_cpp.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/floats__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/floats__rosidl_typesupport_fastrtps_cpp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/muneeb/my-robotic-arm/arm_ws/build/custom_message/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/floats__type_support.cpp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

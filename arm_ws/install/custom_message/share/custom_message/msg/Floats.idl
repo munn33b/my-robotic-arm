@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_message/msg/Floats.msg
+// generated code does not contain a copyright notice
+
+
+module custom_message {
+  module msg {
+    struct Floats {
+      sequence<float> data;
+    };
+  };
+};

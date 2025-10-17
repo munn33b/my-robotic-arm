@@ -1,0 +1,9 @@
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/uninstall.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/gp7_visualization_uninstall.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/test.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/edit_cache.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/rebuild_cache.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/list_install_components.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/install.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/install/local.dir
+/home/muneeb/my-robotic-arm/arm_ws/build/gp7_visualization/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:25 (find_package):
+  By not providing "Findcustom_message.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "custom_message", but CMake did not find one.
+
+  Could not find a package configuration file provided by "custom_message"
+  with any of the following names:
+
+    custom_messageConfig.cmake
+    custom_message-config.cmake
+
+  Add the installation prefix of "custom_message" to CMAKE_PREFIX_PATH or set
+  "custom_message_DIR" to a directory containing one of the above files.  If
+  "custom_message" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

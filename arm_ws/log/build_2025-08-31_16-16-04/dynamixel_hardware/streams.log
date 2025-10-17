@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake /home/muneeb/my-robotic-arm/arm_ws/src/dynamixel_hardware -DCMAKE_INSTALL_PREFIX=/home/muneeb/my-robotic-arm/arm_ws/install/dynamixel_hardware
+[0.316s] -- The C compiler identification is GNU 13.3.0
+[0.527s] -- The CXX compiler identification is GNU 13.3.0
+[0.544s] -- Detecting C compiler ABI info
+[0.686s] -- Detecting C compiler ABI info - done
+[0.709s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.710s] -- Detecting C compile features
+[0.710s] -- Detecting C compile features - done
+[0.717s] -- Detecting CXX compiler ABI info
+[0.829s] -- Detecting CXX compiler ABI info - done
+[0.852s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.852s] -- Detecting CXX compile features
+[0.853s] -- Detecting CXX compile features - done
+[0.866s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.195s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[1.428s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.505s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.529s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.775s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.783s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.018s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")
+[2.054s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")
+[2.092s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.269s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.327s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[2.999s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[2.999s]   By not providing "Findcustom_message.cmake" in CMAKE_MODULE_PATH this
+[2.999s]   project has asked CMake to find a package configuration file provided by
+[3.000s]   "custom_message", but CMake did not find one.
+[3.000s] 
+[3.000s]   Could not find a package configuration file provided by "custom_message"
+[3.000s]   with any of the following names:
+[3.000s] 
+[3.000s]     custom_messageConfig.cmake
+[3.000s]     custom_message-config.cmake
+[3.000s] 
+[3.001s]   Add the installation prefix of "custom_message" to CMAKE_PREFIX_PATH or set
+[3.001s]   "custom_message_DIR" to a directory containing one of the above files.  If
+[3.001s]   "custom_message" provides a separate development package or SDK, be sure it
+[3.001s]   has been installed.
+[3.001s] 
+[3.001s] [0m
+[3.001s] -- Configuring incomplete, errors occurred!

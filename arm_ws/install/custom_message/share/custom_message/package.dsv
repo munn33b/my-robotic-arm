@@ -1,0 +1,14 @@
+source;share/custom_message/hook/cmake_prefix_path.ps1
+source;share/custom_message/hook/cmake_prefix_path.dsv
+source;share/custom_message/hook/cmake_prefix_path.sh
+source;share/custom_message/hook/ld_library_path_lib.ps1
+source;share/custom_message/hook/ld_library_path_lib.dsv
+source;share/custom_message/hook/ld_library_path_lib.sh
+source;share/custom_message/hook/pythonpath.ps1
+source;share/custom_message/hook/pythonpath.dsv
+source;share/custom_message/hook/pythonpath.sh
+source;share/custom_message/local_setup.bash
+source;share/custom_message/local_setup.dsv
+source;share/custom_message/local_setup.ps1
+source;share/custom_message/local_setup.sh
+source;share/custom_message/local_setup.zsh

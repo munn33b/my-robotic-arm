@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_message/msg/Floats",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_message/msg/Floats",
+      "hash_string": "RIHS01_120f21fd1bdbb8f15da78e31bf905d40534e888add7a7bfcaf341da5a759ab05"
+    }
+  ]
+}

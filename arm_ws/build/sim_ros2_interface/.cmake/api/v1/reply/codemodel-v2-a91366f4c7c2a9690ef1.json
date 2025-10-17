@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aee80901365f226d4294.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sim_ros2_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_ros_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_ros_code-b06e04c74154b9a50d31.json",
+					"name" : "generate_ros_code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simROS2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simROS2-128b94ce6e07c504370a.json",
+					"name" : "simROS2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sim_ros2_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sim_ros2_interface_uninstall-284f397cc73f908e064b.json",
+					"name" : "sim_ros2_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c662c4c9ca6ee5c85603.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface",
+		"source" : "/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,137 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+-- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+-- Found pendulum_msgs: 0.33.5 (/opt/ros/jazzy/share/pendulum_msgs/cmake)
+-- Found rosgraph_msgs: 2.0.2 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+-- Found custom_message: 0.0.0 (/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake)
+-- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+-- Found stereo_msgs: 5.3.6 (/opt/ros/jazzy/share/stereo_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.36.10 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0")
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+-- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include
+-- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- Checking CoppeliaSim header version...
+-- CoppeliaSim headers version 4.10.0 rev0
+-- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+-- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/addOns
+-- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/manual
+-- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/models
+-- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/scenes
+-- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua
+-- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/python
+-- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/coppeliaSim
+[33mCMake Warning (dev) at /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/cmake/FindCoppeliaSim.cmake:306 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: regex
+-- Found Git: /usr/bin/git (found version "2.43.0")
+[33mCMake Warning (dev) at CMakeLists.txt:64 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")
+-- Adding simStubsGen command...
+-- Reading plugin metadata...
+-- Plugin: simROS2
+-- Configuring done (3.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[  2%] [34m[1mGenerating generated/actcli_sendGoal.cpp[0m
+[  5%] [34m[1mGenerating generated/actsrv_action_abort.cpp[0m
+[ 10%] [34m[1mGenerating generated/actcli_new.cpp[0m
+[  7%] [34m[1mGenerating generated/actcli_cancelLastGoal.cpp[0m
+[ 12%] [34m[1mGenerating generated/actcli_del.cpp[0m
+[ 17%] [34m[1mGenerating generated/actsrv_action_canceled.cpp[0m
+[ 17%] [34m[1mGenerating generated/actsrv_action_is_active.cpp[0m
+[ 20%] [34m[1mGenerating generated/actsrv_action_execute.cpp[0m
+[ 22%] [34m[1mGenerating generated/actsrv_action_is_canceling.cpp[0m
+[ 25%] [34m[1mGenerating generated/actsrv_action_is_executing.cpp[0m
+[ 30%] [34m[1mGenerating generated/actsrv_action_publish_feedback.cpp[0m
+[ 30%] [34m[1mGenerating generated/actsrv_action_succeed.cpp[0m
+[ 32%] [34m[1mGenerating generated/actsrv_del.cpp[0m
+[ 35%] [34m[1mGenerating generated/actsrv_new.cpp[0m
+[ 40%] [34m[1mGenerating generated/callbacks.cpp[0m
+[ 40%] [34m[1mGenerating generated/callbacks.h[0m
+[ 42%] [34m[1mGenerating generated/cli_call.cpp[0m
+[ 45%] [34m[1mGenerating generated/cli_del.cpp[0m
+[ 47%] [34m[1mGenerating generated/cli_new.cpp[0m
+[ 50%] [34m[1mGenerating generated/cli_wait.cpp[0m
+[ 52%] [34m[1mGenerating generated/if_const.cpp[0m
+[ 55%] [34m[1mGenerating generated/if_list.cpp[0m
+[ 57%] [34m[1mGenerating generated/pub_del.cpp[0m
+[ 60%] [34m[1mGenerating generated/if_new.cpp[0m
+[ 62%] [34m[1mGenerating generated/pub_new.cpp[0m
+[ 65%] [34m[1mGenerating generated/pub_publish.cpp[0m
+[ 67%] [34m[1mGenerating generated/srv_del.cpp[0m
+[ 70%] [34m[1mGenerating generated/srv_new.cpp[0m
+[ 72%] [34m[1mGenerating generated/sub_del.cpp[0m
+[ 75%] [34m[1mGenerating generated/sub_new.cpp[0m
+[ 75%] Built target generate_ros_code
+[ 77%] [34m[1mGenerating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/typecheck.lua[0m
+/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate.py --verbose --xml-file /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml --gen-all /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated --lua-file /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/lua/simROS2.lua
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_lua_xml.py /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/lua/simROS2.lua /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/lua.xml
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/merge_xml.py /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/lua.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml
+xsltproc -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.html /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/xsl/reference.xsl /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_lua_typechecker.py /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/lua/simROS2.lua /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/lua.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/typecheck.lua
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_api_index.py /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/index.json
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_ce.py /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/ce.lua
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/stubs.cpp -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/stubs.cpp
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/stubs.h -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/stubs.h
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/plugin.h -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/plugin.h
+/usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/stubsPlusPlus.cpp -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/stubsPlusPlus.cpp
+[ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Plugin.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simLib/simLib.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Lib.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o[0m
+[ 97%] [32m[1mLinking CXX shared library libsimROS2.so[0m
+[100%] Built target simROS2
+-- Install configuration: ""
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.sh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.sh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.bash
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.sh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.zsh
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/packages/sim_ros2_interface
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig.cmake
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig-version.cmake
+-- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.xml

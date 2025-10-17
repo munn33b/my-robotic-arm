@@ -8,12 +8,12 @@
 <p align="center">
 <img src="figures/sim_env.png" alt="" width="51%"><img src="figures/picked_obj_demo.png" alt="" width="47.1%">
 </p>
-
 <p align="center">
 <b>Muhammad Muneeb ur Rehman</b>
 <br>
-<a href="mailto:muneeburrehman197@gmail.com" target="_top">muneeburrehman197@gmail.com</a>
+<a href="mailto:muhammad.muneeburrehman@uettaxila.edu.pk" target="_top">muhammad.muneeburrehman@uettaxila.edu.pk</a>
 </p>
+
 
 ------------
 
@@ -85,17 +85,18 @@ This project is mainly focused on applications of robotics in retail stores and 
 
 This project uses YOLOv3 Object detection algorithm, so to work with this one, you need following things:
 
-1. ROS (Robot Operating System) Noetic
-2. CoppeliaSim (Previously V-REP)
+1. ROS2 (Robot Operating System) Jazzy
+2. Ubuntu 24.04
+3. CoppeliaSim (Previously V-REP) - Version 4.10.0 rev 0 (For Ubuntu 24.04)
 
-The Project has been tested on Ubuntu 20.04, using ROS Noetic and CoppeliaSim.
+The Project has been tested on Ubuntu 24.04, using ROS Jazzy and CoppeliaSim v4.10.0 rev 0.
 
 ### Prerequisites
 
 - Darknet ROS Installed (YOLOv3 Package for ROS)
 - Trained Model (Weights File)
-- ROS Noetic
-- CoppeliaSim
+- ROS2 Jazzy
+- CoppeliaSim v4.10.0 rev 0
 
 You can download pretrained model (based on publicly available dataset), use our dataset (for shape detection), or train model using your own dataset.
 
@@ -105,12 +106,12 @@ Download pretrained model for shapes detection from here, or pretrained model of
 
 **Note:** For this project to work without any modification, you will need to download pretrained model for shape detection. For any other trained model, you will have to change the codebase and setup.
 
-### ROS Setup
+### ROS2 Environment Setup
 
 Go to "src" directory or your workspace, and clone "darknet_ros" repository there.
 
 ```bash
-cd catkin_ws/src
+cd ros2_ws/src
 ```
 
 ```bash

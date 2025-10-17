@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="test_model">
+    <static>true</static>
+    <link name="link">
+
+      <!-- Inertial properties -->
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <!-- Replace these values with actual values for your object -->
+          <ixx>0.136322</ixx>
+          <ixy>0</ixy>
+          <ixz>0.009477</ixz>
+          <iyy>0.189113</iyy>
+          <iyz>0</iyz>
+          <izz>0.178258</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose> <!-- Optional: adjust pose of the center of mass -->
+      </inertial>
+      <!-- Visual properties -->
+      <visual name="visual">
+        <material>
+          <script>
+            <name>Gazebo/Orange</name>
+            <uri>file:///home/muneeb/Documents/RoboFlex2.0/brainswarm_ws/src/bras_robot_description/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+        <geometry>
+          <mesh>
+            <scale>0.009 0.009 0.009</scale>
+            <uri>model://blue_box/meshes/blue_box.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- Collision properties -->
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>0.009 0.009 0.009</scale>
+            <uri>model://blue_box/meshes/blue_box.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

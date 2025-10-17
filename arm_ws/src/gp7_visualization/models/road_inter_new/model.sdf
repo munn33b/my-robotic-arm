@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name='road_inter_new'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.002</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>0.25 0.25 0.002</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://road_inter_new/materials/scripts</uri>
+              <uri>model://road_inter_new/materials/textures</uri>
+              <name>vrc/inter</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+      <pose>-16.4785 3 0 0 -0 0</pose>
+    </model>
+</sdf>

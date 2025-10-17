@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+    <model name="checkerboard_plane">
+        <static>true</static>
+        <link name="link">
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/checkerboard%20plane/3/files/meshes/checkerboard_plane.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+</sdf>

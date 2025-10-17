@@ -1,0 +1,108 @@
+    <xacro:macro name="camera" params="">
+    
+        <!-- RGBD camera -->
+        <link name="camera_link">
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+            <box size="0.036 0.18 0.04"/>
+            </geometry>
+        </collision>
+        <!--
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+            <box size="0.036 0.18 0.04"/>
+            </geometry>
+        </visual>
+        -->
+        <inertial>
+            <mass value="0.2" />
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="5.8083e-4" ixy="0" ixz="0" iyy="3.0833e-5" iyz="0" izz="5.9083e-4" />
+        </inertial>
+        </link>
+
+        <link name="camera_rgb_frame" />
+
+        <joint name="camera_link_joint" type="fixed">
+        <origin rpy="0 0 0" xyz="0.065 0 0.12" />
+        <parent link="head_tilt_link" />
+        <child link="camera_link" />
+        </joint>
+
+        <joint name="camera_rgb_joint" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0.022 0" />
+        <parent link="camera_link" />
+        <child link="camera_rgb_frame" />
+        </joint>
+
+        <link name="camera_rgb_optical_frame" />
+
+        <joint name="camera_rgb_optical_joint" type="fixed">
+        <origin rpy="-1.57079632679 0 -1.57079632679" xyz="0 0 0" />
+        <parent link="camera_rgb_frame" />
+        <child link="camera_rgb_optical_frame" />
+        </joint>
+
+        <link name="camera_depth_frame" />
+
+        <joint name="camera_depth_joint" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0.049 0" />
+        <parent link="camera_link" />
+        <child link="camera_depth_frame" />
+        </joint>
+
+        <link name="camera_depth_optical_frame" />
+
+        <joint name="camera_depth_optical_joint" type="fixed">
+        <origin rpy="-1.57079632679 0 -1.57079632679" xyz="0 0 0" />
+        <parent link="camera_depth_frame" />
+        <child link="camera_depth_optical_frame" />
+        </joint>
+
+
+        <!--RGBD camera -->
+        <gazebo reference="camera_rgb_frame">
+        <sensor type="depth" name="camera">
+            <always_on>true</always_on>
+            <visualize>false</visualize>
+            <update_rate>15.0</update_rate>
+            <camera name="front">
+            <horizontal_fov>1.5</horizontal_fov><!--default=1.047197-->
+            <image>
+                <!-- openni_kinect plugin works only with BGR8 -->
+                <format>B8G8R8</format>
+                <!-- <width>416</width>
+                <height>416</height> -->
+                <width>640</width>
+                <height>480</height>
+            </image>
+            <clip>
+                <near>0.01</near>
+                <far>9</far>
+            </clip>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_openni_kinect.so">
+            <baseline>0.1</baseline>
+            <alwaysOn>true</alwaysOn>
+            <updateRate>15.0</updateRate>
+            <cameraName>camera</cameraName>
+            <imageTopicName>/camera/rgb/image_raw</imageTopicName>
+            <cameraInfoTopicName>/camera/rgb/camera_info</cameraInfoTopicName>
+            <depthImageTopicName>/camera/depth_registered/image_raw</depthImageTopicName>
+            <depthImageCameraInfoTopicName>/camera/depth_registered/camera_info</depthImageCameraInfoTopicName>
+            <pointCloudTopicName>/camera/depth_registered/points</pointCloudTopicName>
+            <frameName>camera_rgb_optical_frame</frameName>
+            <pointCloudCutoff>0.5</pointCloudCutoff>
+            <pointCloudCutoffMax>4.5</pointCloudCutoffMax>
+            <CxPrime>0</CxPrime>
+            <Cx>0</Cx>
+            <Cy>0</Cy>
+            <focalLength>0</focalLength>
+            <hackBaseline>0</hackBaseline>
+            </plugin>
+        </sensor>
+        </gazebo> 
+
+    </xacro:macro>

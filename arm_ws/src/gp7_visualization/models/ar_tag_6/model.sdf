@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name='ar_tag_6'>
+      <static>1</static>
+      <link name='link'>        
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <mesh>
+            <uri>model://ar_tag_1/meshes/ar_tag_6.dae</uri>
+          </mesh>
+          </geometry>          
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+      <pose>0 0 0 0 -0 0</pose>
+    </model>
+</sdf>

@@ -1,0 +1,143 @@
+[0.044s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface -DCMAKE_INSTALL_PREFIX=/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface
+[0.064s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.448s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.453s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[0.495s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.625s] -- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[0.646s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[0.752s] -- Found pendulum_msgs: 0.33.5 (/opt/ros/jazzy/share/pendulum_msgs/cmake)
+[0.769s] -- Found rosgraph_msgs: 2.0.2 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+[0.785s] -- Found custom_message: 0.0.0 (/home/muneeb/my-robotic-arm/arm_ws/install/custom_message/share/custom_message/cmake)
+[0.802s] -- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[0.833s] -- Found stereo_msgs: 5.3.6 (/opt/ros/jazzy/share/stereo_msgs/cmake)
+[0.884s] -- Found tf2_geometry_msgs: 0.36.10 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.919s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.921s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.921s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.100s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.105s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.228s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")
+[1.256s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")
+[1.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.495s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[1.526s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.571s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.602s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.639s] -- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.655s] -- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include
+[1.655s] -- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[1.655s] -- Checking CoppeliaSim header version...
+[2.075s] -- CoppeliaSim headers version 4.10.0 rev0
+[2.075s] -- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.075s] -- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.075s] -- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.075s] -- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04
+[2.075s] -- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/addOns
+[2.076s] -- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/manual
+[2.076s] -- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/models
+[2.076s] -- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/scenes
+[2.076s] -- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/lua
+[2.076s] -- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/python
+[2.076s] -- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/coppeliaSim
+[2.076s] [33mCMake Warning (dev) at /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/cmake/FindCoppeliaSim.cmake:306 (find_package):
+[2.076s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.076s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.076s]   set the policy and suppress this warning.
+[2.077s] 
+[2.077s] Call Stack (most recent call first):
+[2.077s]   CMakeLists.txt:62 (find_package)
+[2.077s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.077s] [0m
+[2.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: regex
+[2.116s] -- Found Git: /usr/bin/git (found version "2.43.0")
+[2.286s] [33mCMake Warning (dev) at CMakeLists.txt:64 (find_package):
+[2.286s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.286s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.286s]   set the policy and suppress this warning.
+[2.286s] 
+[2.286s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.286s] [0m
+[2.291s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")
+[2.294s] -- Adding simStubsGen command...
+[2.449s] -- Reading plugin metadata...
+[3.557s] -- Plugin: simROS2
+[3.686s] -- Configuring done (3.6s)
+[3.725s] -- Generating done (0.0s)
+[3.730s] -- Build files have been written to: /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[3.746s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface -DCMAKE_INSTALL_PREFIX=/home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface
+[3.748s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[3.811s] [  2%] [34m[1mGenerating generated/actcli_sendGoal.cpp[0m
+[3.813s] [  5%] [34m[1mGenerating generated/actsrv_action_abort.cpp[0m
+[3.817s] [ 10%] [34m[1mGenerating generated/actcli_new.cpp[0m
+[3.818s] [  7%] [34m[1mGenerating generated/actcli_cancelLastGoal.cpp[0m
+[3.818s] [ 12%] [34m[1mGenerating generated/actcli_del.cpp[0m
+[3.818s] [ 17%] [34m[1mGenerating generated/actsrv_action_canceled.cpp[0m
+[3.818s] [ 17%] [34m[1mGenerating generated/actsrv_action_is_active.cpp[0m
+[3.823s] [ 20%] [34m[1mGenerating generated/actsrv_action_execute.cpp[0m
+[4.206s] [ 22%] [34m[1mGenerating generated/actsrv_action_is_canceling.cpp[0m
+[4.214s] [ 25%] [34m[1mGenerating generated/actsrv_action_is_executing.cpp[0m
+[4.220s] [ 30%] [34m[1mGenerating generated/actsrv_action_publish_feedback.cpp[0m
+[4.220s] [ 30%] [34m[1mGenerating generated/actsrv_action_succeed.cpp[0m
+[4.249s] [ 32%] [34m[1mGenerating generated/actsrv_del.cpp[0m
+[4.250s] [ 35%] [34m[1mGenerating generated/actsrv_new.cpp[0m
+[4.260s] [ 40%] [34m[1mGenerating generated/callbacks.cpp[0m
+[4.261s] [ 40%] [34m[1mGenerating generated/callbacks.h[0m
+[4.569s] [ 42%] [34m[1mGenerating generated/cli_call.cpp[0m
+[4.589s] [ 45%] [34m[1mGenerating generated/cli_del.cpp[0m
+[4.593s] [ 47%] [34m[1mGenerating generated/cli_new.cpp[0m
+[4.595s] [ 50%] [34m[1mGenerating generated/cli_wait.cpp[0m
+[4.623s] [ 52%] [34m[1mGenerating generated/if_const.cpp[0m
+[4.650s] [ 55%] [34m[1mGenerating generated/if_list.cpp[0m
+[4.700s] [ 57%] [34m[1mGenerating generated/pub_del.cpp[0m
+[4.702s] [ 60%] [34m[1mGenerating generated/if_new.cpp[0m
+[4.952s] [ 62%] [34m[1mGenerating generated/pub_new.cpp[0m
+[4.973s] [ 65%] [34m[1mGenerating generated/pub_publish.cpp[0m
+[4.983s] [ 67%] [34m[1mGenerating generated/srv_del.cpp[0m
+[5.002s] [ 70%] [34m[1mGenerating generated/srv_new.cpp[0m
+[5.048s] [ 72%] [34m[1mGenerating generated/sub_del.cpp[0m
+[5.077s] [ 75%] [34m[1mGenerating generated/sub_new.cpp[0m
+[5.378s] [ 75%] Built target generate_ros_code
+[5.391s] [ 77%] [34m[1mGenerating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/typecheck.lua[0m
+[5.430s] /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate.py --verbose --xml-file /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml --gen-all /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated --lua-file /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/lua/simROS2.lua
+[5.822s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_lua_xml.py /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/lua/simROS2.lua /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/lua.xml
+[6.330s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/merge_xml.py /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/lua.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml
+[6.373s] xsltproc -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.html /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/xsl/reference.xsl /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml
+[6.403s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_lua_typechecker.py /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml /home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/lua/simROS2.lua /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/lua.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/typecheck.lua
+[6.917s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_api_index.py /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/index.json
+[7.426s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/generate_ce.py /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/reference.xml /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/ce.lua
+[7.923s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/stubs.cpp -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/stubs.cpp
+[8.448s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/stubs.h -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/stubs.h
+[8.958s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/plugin.h -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/plugin.h
+[9.477s] /usr/bin/python3 /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/muneeb/my-robotic-arm/arm_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen -i /home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simStubsGen/cpp/stubsPlusPlus.cpp -o /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface/generated/stubsPlusPlus.cpp
+[10.106s] [ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Plugin.cpp.o[0m
+[10.106s] [ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simLib/simLib.cpp.o[0m
+[10.106s] [ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o[0m
+[10.108s] [ 90%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o[0m
+[10.108s] [ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/home/muneeb/Apps/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu24_04/programming/include/simPlusPlus/Lib.cpp.o[0m
+[10.113s] [ 92%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o[0m
+[10.113s] [ 95%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o[0m
+[124.764s] [ 97%] [32m[1mLinking CXX shared library libsimROS2.so[0m
+[133.230s] [100%] Built target simROS2
+[133.245s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --build /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface -- -j8 -l8
+[133.246s] Invoking command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
+[133.255s] -- Install configuration: ""
+[133.257s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface
+[133.257s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface
+[133.257s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.sh
+[133.257s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.dsv
+[133.257s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.sh
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.dsv
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.bash
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.sh
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.zsh
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.dsv
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/ament_index/resource_index/packages/sim_ros2_interface
+[133.258s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig.cmake
+[133.259s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig-version.cmake
+[133.259s] -- Installing: /home/muneeb/my-robotic-arm/arm_ws/install/sim_ros2_interface/share/sim_ros2_interface/package.xml
+[133.260s] Invoked command in '/home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.neon.kde.org/ https://debuginfod.ubuntu.com/ /usr/bin/cmake --install /home/muneeb/my-robotic-arm/arm_ws/build/sim_ros2_interface
